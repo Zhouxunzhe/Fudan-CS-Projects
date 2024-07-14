@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/adder.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/alu.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/aludec.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/controller.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/datapath.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/dmem.sv" \
+"../../../../PCC_CPU.srcs/sources_1/new/eqcmp.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/new/flopenr.sv" \
+"../../../../PCC_CPU.srcs/sources_1/new/flopenrc.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv" \
+"../../../../PCC_CPU.srcs/sources_1/new/floprc.sv" \
+"../../../../PCC_CPU.srcs/sources_1/new/hazard.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/maindec.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mips.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv" \
+"../../../../PCC_CPU.srcs/sources_1/new/mux3.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/signext.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/sl2.sv" \
+"../../../../PCC_CPU.srcs/sources_1/imports/sources_1/new/topext.sv" \
+"../../../../PCC_CPU.srcs/sim_1/imports/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

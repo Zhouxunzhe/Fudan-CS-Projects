@@ -1,0 +1,31 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: i
+............ <2,10> Grammar: id_comma_sm 
+.............. <2,12> Token: identifier: j
+............ <2,16> Grammar: type INTEGER
+.............. <2,16> Token: identifier: INTEGER
+............ <2,27> Grammar: expression 1
+.............. <2,27> Token: integer: 1
+...... <3,5> Grammar: declaration 
+........ <3,9> Grammar: var_decl_sm 
+.......... <3,9> Grammar: var_decl 
+............ <3,9> Token: identifier: x
+............ <3,13> Grammar: type REAL
+.............. <3,13> Token: identifier: REAL
+............ <3,21> Grammar: expression 2.0
+.............. <3,21> Token: real: 2.0
+...... <4,5> Grammar: declaration 
+........ <4,9> Grammar: var_decl_sm 
+.......... <4,9> Grammar: var_decl 
+............ <4,9> Token: identifier: y
+............ <4,13> Grammar: type REAL
+.............. <4,13> Token: identifier: REAL
+............ <4,21> Grammar: expression 3.0
+.............. <4,21> Token: real: 3.0
+.... <7,35> Grammar: statement_sm 
+...... <7,35> Error: statement_error

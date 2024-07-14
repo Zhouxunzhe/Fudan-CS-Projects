@@ -1,0 +1,33 @@
+﻿  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 24667 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  WebApp.vcxproj -> C:\Users\zhouxz\Desktop\bserv-main\x64\Release\WebApp.exe
+  ..\dependencies\pgsql\bin\icudt67.dll
+  ..\dependencies\pgsql\bin\icuin67.dll
+  ..\dependencies\pgsql\bin\icuio67.dll
+  ..\dependencies\pgsql\bin\icutu67.dll
+  ..\dependencies\pgsql\bin\icuuc67.dll
+  ..\dependencies\pgsql\bin\libcrypto-1_1-x64.dll
+  ..\dependencies\pgsql\bin\libcurl.dll
+  ..\dependencies\pgsql\bin\libecpg.dll
+  ..\dependencies\pgsql\bin\libecpg_compat.dll
+  ..\dependencies\pgsql\bin\libiconv-2.dll
+  ..\dependencies\pgsql\bin\libintl-9.dll
+  ..\dependencies\pgsql\bin\liblz4.dll
+  ..\dependencies\pgsql\bin\libpgtypes.dll
+  ..\dependencies\pgsql\bin\libpq.dll
+  ..\dependencies\pgsql\bin\libssl-1_1-x64.dll
+  ..\dependencies\pgsql\bin\libwinpthread-1.dll
+  ..\dependencies\pgsql\bin\libxml2.dll
+  ..\dependencies\pgsql\bin\libxslt.dll
+  ..\dependencies\pgsql\bin\wxbase313ud_net_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxbase313u_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxbase313u_xml_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxmsw313ud_aui_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxmsw313ud_html_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxmsw313ud_xrc_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxmsw313u_adv_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\wxmsw313u_core_vc_x64_custom.dll
+  ..\dependencies\pgsql\bin\zlib1.dll
+  复制了 27 个文件

@@ -1,0 +1,201 @@
+C:\Users\ZhouXunZhe\mlpnn\Scripts\python.exe C:\Users\ZhouXunZhe\PycharmProjects\mlpnn\mlp_MultiMarginLoss.py
+Epoch:  1  	Training Loss: 0.555304
+Accuracy of the network on the test images: 65 %
+Epoch:  2  	Training Loss: 0.320534
+Accuracy of the network on the test images: 73 %
+Epoch:  3  	Training Loss: 0.257496
+Accuracy of the network on the test images: 75 %
+Epoch:  4  	Training Loss: 0.182903
+Accuracy of the network on the test images: 84 %
+Epoch:  5  	Training Loss: 0.159492
+Accuracy of the network on the test images: 85 %
+Epoch:  6  	Training Loss: 0.149636
+Accuracy of the network on the test images: 85 %
+Epoch:  7  	Training Loss: 0.142864
+Accuracy of the network on the test images: 86 %
+Epoch:  8  	Training Loss: 0.137698
+Accuracy of the network on the test images: 86 %
+Epoch:  9  	Training Loss: 0.112631
+Accuracy of the network on the test images: 94 %
+Epoch:  10  	Training Loss: 0.050022
+Accuracy of the network on the test images: 95 %
+Epoch:  11  	Training Loss: 0.042777
+Accuracy of the network on the test images: 96 %
+Epoch:  12  	Training Loss: 0.037984
+Accuracy of the network on the test images: 96 %
+Epoch:  13  	Training Loss: 0.034205
+Accuracy of the network on the test images: 97 %
+Epoch:  14  	Training Loss: 0.031121
+Accuracy of the network on the test images: 97 %
+Epoch:  15  	Training Loss: 0.028317
+Accuracy of the network on the test images: 97 %
+Epoch:  16  	Training Loss: 0.025969
+Accuracy of the network on the test images: 97 %
+Epoch:  17  	Training Loss: 0.024014
+Accuracy of the network on the test images: 97 %
+Epoch:  18  	Training Loss: 0.022539
+Accuracy of the network on the test images: 98 %
+Epoch:  19  	Training Loss: 0.021031
+Accuracy of the network on the test images: 98 %
+Epoch:  20  	Training Loss: 0.019700
+Accuracy of the network on the test images: 98 %
+Epoch:  21  	Training Loss: 0.018698
+Accuracy of the network on the test images: 98 %
+Epoch:  22  	Training Loss: 0.017977
+Accuracy of the network on the test images: 98 %
+Epoch:  23  	Training Loss: 0.017201
+Accuracy of the network on the test images: 98 %
+Epoch:  24  	Training Loss: 0.016513
+Accuracy of the network on the test images: 98 %
+Epoch:  25  	Training Loss: 0.015707
+Accuracy of the network on the test images: 98 %
+Epoch:  26  	Training Loss: 0.015100
+Accuracy of the network on the test images: 98 %
+Epoch:  27  	Training Loss: 0.014502
+Accuracy of the network on the test images: 98 %
+Epoch:  28  	Training Loss: 0.014031
+Accuracy of the network on the test images: 98 %
+Epoch:  29  	Training Loss: 0.013573
+Accuracy of the network on the test images: 98 %
+Epoch:  30  	Training Loss: 0.013147
+Accuracy of the network on the test images: 98 %
+Epoch:  31  	Training Loss: 0.012767
+Accuracy of the network on the test images: 98 %
+Epoch:  32  	Training Loss: 0.012379
+Accuracy of the network on the test images: 98 %
+Epoch:  33  	Training Loss: 0.012102
+Accuracy of the network on the test images: 98 %
+Epoch:  34  	Training Loss: 0.011801
+Accuracy of the network on the test images: 98 %
+Epoch:  35  	Training Loss: 0.011564
+Accuracy of the network on the test images: 98 %
+Epoch:  36  	Training Loss: 0.011355
+Accuracy of the network on the test images: 98 %
+Epoch:  37  	Training Loss: 0.011092
+Accuracy of the network on the test images: 98 %
+Epoch:  38  	Training Loss: 0.010923
+Accuracy of the network on the test images: 98 %
+Epoch:  39  	Training Loss: 0.010733
+Accuracy of the network on the test images: 98 %
+Epoch:  40  	Training Loss: 0.010526
+Accuracy of the network on the test images: 99 %
+Epoch:  41  	Training Loss: 0.010382
+Accuracy of the network on the test images: 99 %
+Epoch:  42  	Training Loss: 0.010244
+Accuracy of the network on the test images: 99 %
+Epoch:  43  	Training Loss: 0.010049
+Accuracy of the network on the test images: 99 %
+Epoch:  44  	Training Loss: 0.009924
+Accuracy of the network on the test images: 99 %
+Epoch:  45  	Training Loss: 0.009835
+Accuracy of the network on the test images: 99 %
+Epoch:  46  	Training Loss: 0.009773
+Accuracy of the network on the test images: 99 %
+Epoch:  47  	Training Loss: 0.009647
+Accuracy of the network on the test images: 99 %
+Epoch:  48  	Training Loss: 0.009604
+Accuracy of the network on the test images: 99 %
+Epoch:  49  	Training Loss: 0.009401
+Accuracy of the network on the test images: 99 %
+Epoch:  50  	Training Loss: 0.009313
+Accuracy of the network on the test images: 99 %
+Epoch:  51  	Training Loss: 0.009229
+Accuracy of the network on the test images: 99 %
+Epoch:  52  	Training Loss: 0.009135
+Accuracy of the network on the test images: 99 %
+Epoch:  53  	Training Loss: 0.009032
+Accuracy of the network on the test images: 99 %
+Epoch:  54  	Training Loss: 0.008928
+Accuracy of the network on the test images: 99 %
+Epoch:  55  	Training Loss: 0.008926
+Accuracy of the network on the test images: 99 %
+Epoch:  56  	Training Loss: 0.008831
+Accuracy of the network on the test images: 99 %
+Epoch:  57  	Training Loss: 0.008681
+Accuracy of the network on the test images: 99 %
+Epoch:  58  	Training Loss: 0.008490
+Accuracy of the network on the test images: 99 %
+Epoch:  59  	Training Loss: 0.008406
+Accuracy of the network on the test images: 99 %
+Epoch:  60  	Training Loss: 0.008357
+Accuracy of the network on the test images: 99 %
+Epoch:  61  	Training Loss: 0.008253
+Accuracy of the network on the test images: 99 %
+Epoch:  62  	Training Loss: 0.008121
+Accuracy of the network on the test images: 99 %
+Epoch:  63  	Training Loss: 0.008079
+Accuracy of the network on the test images: 99 %
+Epoch:  64  	Training Loss: 0.008042
+Accuracy of the network on the test images: 99 %
+Epoch:  65  	Training Loss: 0.008019
+Accuracy of the network on the test images: 99 %
+Epoch:  66  	Training Loss: 0.007993
+Accuracy of the network on the test images: 99 %
+Epoch:  67  	Training Loss: 0.007927
+Accuracy of the network on the test images: 99 %
+Epoch:  68  	Training Loss: 0.007839
+Accuracy of the network on the test images: 99 %
+Epoch:  69  	Training Loss: 0.007807
+Accuracy of the network on the test images: 99 %
+Epoch:  70  	Training Loss: 0.007774
+Accuracy of the network on the test images: 99 %
+Epoch:  71  	Training Loss: 0.007730
+Accuracy of the network on the test images: 99 %
+Epoch:  72  	Training Loss: 0.007677
+Accuracy of the network on the test images: 99 %
+Epoch:  73  	Training Loss: 0.007655
+Accuracy of the network on the test images: 99 %
+Epoch:  74  	Training Loss: 0.007639
+Accuracy of the network on the test images: 99 %
+Epoch:  75  	Training Loss: 0.007611
+Accuracy of the network on the test images: 99 %
+Epoch:  76  	Training Loss: 0.007586
+Accuracy of the network on the test images: 99 %
+Epoch:  77  	Training Loss: 0.007575
+Accuracy of the network on the test images: 99 %
+Epoch:  78  	Training Loss: 0.007568
+Accuracy of the network on the test images: 99 %
+Epoch:  79  	Training Loss: 0.007560
+Accuracy of the network on the test images: 99 %
+Epoch:  80  	Training Loss: 0.007547
+Accuracy of the network on the test images: 99 %
+Epoch:  81  	Training Loss: 0.007533
+Accuracy of the network on the test images: 99 %
+Epoch:  82  	Training Loss: 0.007490
+Accuracy of the network on the test images: 99 %
+Epoch:  83  	Training Loss: 0.007464
+Accuracy of the network on the test images: 99 %
+Epoch:  84  	Training Loss: 0.007436
+Accuracy of the network on the test images: 99 %
+Epoch:  85  	Training Loss: 0.007413
+Accuracy of the network on the test images: 99 %
+Epoch:  86  	Training Loss: 0.007374
+Accuracy of the network on the test images: 99 %
+Epoch:  87  	Training Loss: 0.007349
+Accuracy of the network on the test images: 99 %
+Epoch:  88  	Training Loss: 0.007334
+Accuracy of the network on the test images: 99 %
+Epoch:  89  	Training Loss: 0.007318
+Accuracy of the network on the test images: 99 %
+Epoch:  90  	Training Loss: 0.007290
+Accuracy of the network on the test images: 99 %
+Epoch:  91  	Training Loss: 0.007285
+Accuracy of the network on the test images: 99 %
+Epoch:  92  	Training Loss: 0.007238
+Accuracy of the network on the test images: 99 %
+Epoch:  93  	Training Loss: 0.007213
+Accuracy of the network on the test images: 99 %
+Epoch:  94  	Training Loss: 0.007209
+Accuracy of the network on the test images: 99 %
+Epoch:  95  	Training Loss: 0.007193
+Accuracy of the network on the test images: 99 %
+Epoch:  96  	Training Loss: 0.007153
+Accuracy of the network on the test images: 99 %
+Epoch:  97  	Training Loss: 0.007128
+Accuracy of the network on the test images: 99 %
+Epoch:  98  	Training Loss: 0.007106
+Accuracy of the network on the test images: 99 %
+Epoch:  99  	Training Loss: 0.007099
+Accuracy of the network on the test images: 99 %
+Epoch:  100  	Training Loss: 0.007093
+Accuracy of the network on the test images: 99 %

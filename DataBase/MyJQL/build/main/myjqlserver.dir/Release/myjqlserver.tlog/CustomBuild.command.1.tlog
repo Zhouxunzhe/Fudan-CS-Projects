@@ -1,0 +1,10 @@
+^C:\USERS\ZHOUXZ\DESKTOP\MYJQL\MAIN\CMAKELISTS.TXT
+setlocal
+C:\Users\zhouxz\Desktop\cmake-3.21.3-windows-x86_64\bin\cmake.exe -SC:/Users/zhouxz/Desktop/myjql -BC:/Users/zhouxz/Desktop/myjql/build --check-stamp-file C:/Users/zhouxz/Desktop/myjql/build/main/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

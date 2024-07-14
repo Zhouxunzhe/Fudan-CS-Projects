@@ -1,0 +1,744 @@
+PID: 18236 START: 1671516107466446592 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git_ip, -b, branch_name, --repo-url=https://gerrit-googlesource.lug.ustc.edu.cn/git-repo
+
+PID: 18236 START: 1671516107482795520 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 18236 END: 1671516107485302528 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/repo/.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/repo/.git/config --includes --null --list 1>| 2>|
+
+PID: 18236 START: 1671516107486365952 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 18236 END: 1671516107490551040 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 18236 START: 1671516107492266752 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18236 END: 1671516107496196608 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18236 START: 1671516107496740608 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 18236 END: 1671516107499794944 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 18236 START: 1671516107500050944 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 18236 END: 1671516107502555136 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 18236 START: 1671516107502841344 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 18236 END: 1671516107505867008 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 18236 START: 1671516107506202368 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git_ip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url git_ip 1>| 2>|
+
+PID: 18236 END: 1671516107513968896 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git_ip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url git_ip 1>| 2>|
+
+PID: 18236 START: 1671516107514289920 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 18236 END: 1671516107517964288 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 18236 START: 1671516107518395904 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 18236 END: 1671516107521442048 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 18236 START: 1671516107522300928 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/branch_name:refs/remotes/origin/branch_name', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/branch_name:refs/remotes/origin/branch_name +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18236 END: 1671516107531639296 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/branch_name:refs/remotes/origin/branch_name', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/branch_name:refs/remotes/origin/branch_name +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18236 START: 1671516111533245952 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/branch_name:refs/remotes/origin/branch_name', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/branch_name:refs/remotes/origin/branch_name +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18236 END: 1671516111539422720 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/branch_name:refs/remotes/origin/branch_name', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/branch_name:refs/remotes/origin/branch_name +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18236 START: 1671516111539991552 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 18236 END: 1671516111543146496 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 18236 START: 1671516111544030464 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18236 END: 1671516111546874624 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18236 END: 1671516111547007744 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git_ip, -b, branch_name, --repo-url=https://gerrit-googlesource.lug.ustc.edu.cn/git-repo
+
+PID: 18397 START: 1671516186034600192 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://aosp.tuna.tsinghua.edu.cn/platform/manifest
+
+PID: 18397 START: 1671516186047028480 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 18397 END: 1671516186051446528 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 18397 START: 1671516186053038336 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18397 END: 1671516186055605504 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18397 START: 1671516186056308224 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 18397 END: 1671516186058942720 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 18397 START: 1671516186059146496 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 18397 END: 1671516186061751040 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 18397 START: 1671516186062556160 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 18397 END: 1671516186066012416 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 18397 START: 1671516186066312960 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://aosp.tuna.tsinghua.edu.cn/platform/manifest'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url https://aosp.tuna.tsinghua.edu.cn/platform/manifest 1>| 2>|
+
+PID: 18397 END: 1671516186069464832 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://aosp.tuna.tsinghua.edu.cn/platform/manifest'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url https://aosp.tuna.tsinghua.edu.cn/platform/manifest 1>| 2>|
+
+PID: 18397 START: 1671516186069712896 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 18397 END: 1671516186072698880 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 18397 START: 1671516186073256960 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 18397 END: 1671516186818818560 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'ls-remote', '-q', '--symref', '--exit-code', 'origin', 'HEAD'] with debug: : git ls-remote -q --symref --exit-code origin HEAD 1>| 2>|
+
+PID: 18397 START: 1671516186819240448 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 18397 END: 1671516186822316544 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 18397 START: 1671516186822789888 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18397 END: 1671516193234874624 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18397 START: 1671516193235337984 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 18397 END: 1671516193334534656 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 18397 START: 1671516193335008000 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 18397 END: 1671516193337388800 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/master^0'] with debug: : git rev-parse --verify refs/remotes/origin/master^0 1>| 2>|
+
+PID: 18397 START: 1671516193337881088 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/zhouxunzhe/OSlab/.repo/manifests
+: git read-tree --reset -u -v HEAD
+
+PID: 18397 END: 1671516193340987136 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/zhouxunzhe/OSlab/.repo/manifests
+: git read-tree --reset -u -v HEAD
+
+PID: 18397 START: 1671516193341155072 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18397 END: 1671516193343370752 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18397 START: 1671516193343781888 :: scan refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18397 END: 1671516193343810048 :: scan refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18397 START: 1671516193343963904 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '271b848827e7a5437d55f0d4c97930b1a415b440'] with debug: : git update-ref refs/heads/default 271b848827e7a5437d55f0d4c97930b1a415b440 1>| 2>|
+
+PID: 18397 END: 1671516193348024576 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', '271b848827e7a5437d55f0d4c97930b1a415b440'] with debug: : git update-ref refs/heads/default 271b848827e7a5437d55f0d4c97930b1a415b440 1>| 2>|
+
+PID: 18397 START: 1671516193348482304 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 18397 END: 1671516193351724032 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 18397 START: 1671516193450406144 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18397 END: 1671516193453427200 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18397 START: 1671516193453903360 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18397 END: 1671516193456957696 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18397 END: 1671516193457162496 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://aosp.tuna.tsinghua.edu.cn/platform/manifest
+
+PID: 18458 START: 1671516224272408832 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18458 START: 1671516224282482944 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18458 END: 1671516224285266432 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18458 START: 1671516224287659264 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18458 END: 1671516224902645760 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18458 START: 1671516224903028992 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18458 END: 1671516224904729856 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18458 START: 1671516224999509760 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18458 END: 1671516225002854656 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18458 START: 1671516225003192320 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18458 END: 1671516225005562624 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18458 END: 1671516225005682176 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18500 START: 1671516317342478080 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18500 START: 1671516317348729344 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18500 END: 1671516317348849664 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18500 START: 1671516317355923200 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18500 END: 1671516318225488128 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18500 START: 1671516318225844224 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18500 END: 1671516318227440896 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18500 START: 1671516318332233472 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18500 END: 1671516318335358208 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18500 START: 1671516318335742464 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18500 END: 1671516318339179776 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18500 END: 1671516318339321344 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18628 START: 1671516475974691328 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18628 START: 1671516475983761152 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18628 END: 1671516475983902720 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18628 START: 1671516475989866240 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18628 END: 1671516476977788416 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18628 START: 1671516476978204160 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18628 END: 1671516476980708096 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18628 START: 1671516477085091840 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18628 END: 1671516477089121024 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'var', 'GIT_COMMITTER_IDENT'] with debug: : git var GIT_COMMITTER_IDENT 1>| 2>|
+
+PID: 18628 START: 1671516477089465088 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18628 END: 1671516477092041472 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18628 END: 1671516477092162560 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init
+
+PID: 18735 START: 1671517181182349824 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: version
+
+PID: 18735 START: 1671517181189929984 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18735 END: 1671517181190044672 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18735 START: 1671517181194433792 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 18735 END: 1671517181196791808 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 18735 START: 1671517181197487104 :: parsing /home/zhouxunzhe/OSlab/.repo/repo/.git/config
+
+PID: 18735 END: 1671517181197560832 :: parsing /home/zhouxunzhe/OSlab/.repo/repo/.git/config
+
+PID: 18735 START: 1671517181197748736 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'describe', 'HEAD'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/repo/.git
+: git describe HEAD 1>| 2>|
+
+PID: 18735 END: 1671517181204415232 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'describe', 'HEAD'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/repo/.git
+: git describe HEAD 1>| 2>|
+
+PID: 18735 START: 1671517181204874752 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'log', '-1', '--format=%cD', 'HEAD'] with debug: : git log -1 --format=%cD HEAD 1>| 2>|
+
+PID: 18735 END: 1671517181207477504 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'log', '-1', '--format=%cD', 'HEAD'] with debug: : git log -1 --format=%cD HEAD 1>| 2>|
+
+PID: 18735 START: 1671517181207938560 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18735 END: 1671517181210148864 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18735 END: 1671517181210274048 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: version
+
+PID: 18750 START: 1671517199130241792 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: selfupdate
+
+PID: 18750 START: 1671517199137421056 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18750 END: 1671517199137536256 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18750 START: 1671517199137569024 :: parsing /root/.gitconfig
+
+PID: 18750 END: 1671517199137607680 :: parsing /root/.gitconfig
+
+PID: 18750 START: 1671517199140307200 :: parsing /home/zhouxunzhe/OSlab/.repo/repo/.git/config
+
+PID: 18750 END: 1671517199140389632 :: parsing /home/zhouxunzhe/OSlab/.repo/repo/.git/config
+
+PID: 18750 START: 1671517199143665664 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/stable:refs/remotes/origin/stable', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/repo/.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/repo/.git/objects
+: git fetch --quiet --progress origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/stable:refs/remotes/origin/stable +refs/tags/*:refs/tags/* 2>&1
+
+PID: 18750 END: 1671517204422325248 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'fetch', '--quiet', '--progress', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/*:refs/remotes/origin/*', '+refs/heads/stable:refs/remotes/origin/stable', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/repo/.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/repo/.git/objects
+: git fetch --quiet --progress origin --recurse-submodules=no --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/stable:refs/remotes/origin/stable +refs/tags/*:refs/tags/* 2>&1
+
+PID: 18750 START: 1671517204422665984 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'gc', '--auto'] with debug: : git gc --auto 1>| 2>|
+
+PID: 18750 END: 1671517204425535488 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'gc', '--auto'] with debug: : git gc --auto 1>| 2>|
+
+PID: 18750 START: 1671517204425675008 :: load refs /home/zhouxunzhe/OSlab/.repo/repo/.git
+
+PID: 18750 END: 1671517204430488064 :: load refs /home/zhouxunzhe/OSlab/.repo/repo/.git
+
+PID: 18750 START: 1671517204430713856 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'describe', 'HEAD'] with debug: 
+: cd /home/zhouxunzhe/OSlab/.repo/repo
+: git describe HEAD 1>| 2>|
+
+PID: 18750 END: 1671517204436663040 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'describe', 'HEAD'] with debug: 
+: cd /home/zhouxunzhe/OSlab/.repo/repo
+: git describe HEAD 1>| 2>|
+
+PID: 18750 START: 1671517204437737472 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18750 END: 1671517204441746176 :git command /home/zhouxunzhe/OSlab/.repo/repo/.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18750 END: 1671517204441957120 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: selfupdate
+
+PID: 18956 START: 1671517460356516352 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git://mirrors.ustc.edu.cn/aosp/platform/manifest
+
+PID: 18956 START: 1671517460363036928 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18956 END: 1671517460363153920 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 18956 START: 1671517460363186688 :: parsing /root/.gitconfig
+
+PID: 18956 END: 1671517460363228928 :: parsing /root/.gitconfig
+
+PID: 18956 START: 1671517460368988160 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git://mirrors.ustc.edu.cn/aosp/platform/manifest'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url git://mirrors.ustc.edu.cn/aosp/platform/manifest 1>| 2>|
+
+PID: 18956 END: 1671517460371695104 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'git://mirrors.ustc.edu.cn/aosp/platform/manifest'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --replace-all remote.origin.url git://mirrors.ustc.edu.cn/aosp/platform/manifest 1>| 2>|
+
+PID: 18956 START: 1671517460372686592 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18956 END: 1671517460727394048 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/master:refs/remotes/origin/master', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_DIR=/home/zhouxunzhe/OSlab/.repo/manifests.git
+: export GIT_OBJECT_DIRECTORY=/home/zhouxunzhe/OSlab/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/master:refs/remotes/origin/master +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 18956 START: 1671517460727751680 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18956 END: 1671517460729441792 :: load refs /home/zhouxunzhe/OSlab/.repo/manifests.git
+
+PID: 18956 START: 1671517482198390016 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /root/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 18956 END: 1671517482201845248 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--replace-all', 'color.ui', 'auto'] with debug: : git config --file /root/.gitconfig --includes --replace-all color.ui auto 1>| 2>|
+
+PID: 18956 START: 1671517482202302464 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18956 END: 1671517482205246208 :git command /home/zhouxunzhe/OSlab/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18956 END: 1671517482205580032 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, git://mirrors.ustc.edu.cn/aosp/platform/manifest
+
+PID: 18995 START: 1671517683519151616 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 18995 START: 1671517683530499072 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18995 END: 1671517683533321984 :git command None ['git', 'config', '--file', '/home/zhouxunzhe/OSlab/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/zhouxunzhe/OSlab/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 18995 START: 1671517683533967104 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 18995 END: 1671517683536678400 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 18995 START: 1671517683645665792 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18995 END: 1671517683648351232 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 18995 END: 1671517683648477696 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19056 START: 1671517800333041408 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19056 START: 1671517800339957504 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19056 END: 1671517800340076544 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19056 START: 1671517800340108544 :: parsing /root/.gitconfig
+
+PID: 19056 END: 1671517800340145152 :: parsing /root/.gitconfig
+
+PID: 19056 START: 1671517800449365504 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19056 END: 1671517800451922944 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19056 END: 1671517800452056064 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19070 START: 1671517803130099968 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload, .
+
+PID: 19070 START: 1671517803137443584 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19070 END: 1671517803137698304 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19070 START: 1671517803137762816 :: parsing /root/.gitconfig
+
+PID: 19070 END: 1671517803137832448 :: parsing /root/.gitconfig
+
+PID: 19070 START: 1671517803238876416 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19070 END: 1671517803241312768 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19070 END: 1671517803241868288 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload, .
+
+PID: 19303 START: 1671518300793444096 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19303 START: 1671518300801461248 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19303 END: 1671518300801572864 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19303 START: 1671518300805172992 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 19303 END: 1671518300807216384 :git command None ['git', 'config', '--file', '/root/.gitconfig', '--includes', '--null', '--list'] with debug: : git config --file /root/.gitconfig --includes --null --list 1>| 2>|
+
+PID: 19303 START: 1671518300931612160 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19303 END: 1671518300937352960 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19303 END: 1671518300937965312 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19329 START: 1671518379625811712 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, ./Oslab
+
+PID: 19329 START: 1671518379632731904 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19329 END: 1671518379632938240 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19329 START: 1671518379633123328 :: parsing /root/.gitconfig
+
+PID: 19329 END: 1671518379633219328 :: parsing /root/.gitconfig
+
+PID: 19329 START: 1671518379638734080 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19329 END: 1671518379640662272 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19329 START: 1671518379735330560 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19329 END: 1671518379738994432 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19329 END: 1671518379739306496 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, ./Oslab
+
+PID: 19337 START: 1671518385098140672 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, ./OSlab
+
+PID: 19337 START: 1671518385105435136 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19337 END: 1671518385105583616 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19337 START: 1671518385105617152 :: parsing /root/.gitconfig
+
+PID: 19337 END: 1671518385105653504 :: parsing /root/.gitconfig
+
+PID: 19337 START: 1671518385109834752 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19337 END: 1671518385111771136 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19337 START: 1671518385208080384 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19337 END: 1671518385211454208 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19337 END: 1671518385211798272 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, ./OSlab
+
+PID: 19345 START: 1671518412303205376 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, /home/zhouxunzhe/OSlab
+
+PID: 19345 START: 1671518412310705152 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19345 END: 1671518412310818048 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19345 START: 1671518412310851584 :: parsing /root/.gitconfig
+
+PID: 19345 END: 1671518412310895872 :: parsing /root/.gitconfig
+
+PID: 19345 START: 1671518412315159040 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19345 END: 1671518412317153280 :git command None ['git', 'check-ref-format', 'heads/my_branch'] with debug: : git check-ref-format heads/my_branch
+
+PID: 19345 START: 1671518412414368256 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19345 END: 1671518412417503232 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19345 END: 1671518412417937920 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, my_branch, /home/zhouxunzhe/OSlab
+
+PID: 19373 START: 1671518489811879424 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, dev, --all
+
+PID: 19373 START: 1671518489819395840 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19373 END: 1671518489819586560 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19373 START: 1671518489819650304 :: parsing /root/.gitconfig
+
+PID: 19373 END: 1671518489819719680 :: parsing /root/.gitconfig
+
+PID: 19373 START: 1671518489826083328 :git command None ['git', 'check-ref-format', 'heads/dev'] with debug: : git check-ref-format heads/dev
+
+PID: 19373 END: 1671518489828016896 :git command None ['git', 'check-ref-format', 'heads/dev'] with debug: : git check-ref-format heads/dev
+
+PID: 19373 START: 1671518489934007296 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19373 END: 1671518489936586752 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19373 END: 1671518489936730880 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, dev, --all
+
+PID: 19389 START: 1671518494180164608 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19389 START: 1671518494186433024 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19389 END: 1671518494186570240 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19389 START: 1671518494186603264 :: parsing /root/.gitconfig
+
+PID: 19389 END: 1671518494186638080 :: parsing /root/.gitconfig
+
+PID: 19389 START: 1671518494300654848 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19389 END: 1671518494303408640 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19389 END: 1671518494303564032 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19402 START: 1671518513480969728 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19402 START: 1671518513489005568 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19402 END: 1671518513489304576 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19402 START: 1671518513489372928 :: parsing /root/.gitconfig
+
+PID: 19402 END: 1671518513489430272 :: parsing /root/.gitconfig
+
+PID: 19402 START: 1671518513601495296 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19402 END: 1671518513604186624 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19402 END: 1671518513604323840 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19489 START: 1671518687533220096 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19489 START: 1671518687540092160 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19489 END: 1671518687540364800 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19489 START: 1671518687540445184 :: parsing /root/.gitconfig
+
+PID: 19489 END: 1671518687540522752 :: parsing /root/.gitconfig
+
+PID: 19489 START: 1671518687652477184 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19489 END: 1671518687655485440 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19489 END: 1671518687655619584 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19618 START: 1671518950532535040 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19618 START: 1671518950540331776 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19618 END: 1671518950540526336 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19618 START: 1671518950540588544 :: parsing /root/.gitconfig
+
+PID: 19618 END: 1671518950540663552 :: parsing /root/.gitconfig
+
+PID: 19618 START: 1671518950666063360 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19618 END: 1671518950669098240 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19618 END: 1671518950669231872 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 19630 START: 1671518963475779328 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19630 START: 1671518963484363776 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19630 END: 1671518963484494848 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19630 START: 1671518963484529664 :: parsing /root/.gitconfig
+
+PID: 19630 END: 1671518963484565504 :: parsing /root/.gitconfig
+
+PID: 19630 START: 1671518963605184512 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19630 END: 1671518963609674752 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19630 END: 1671518963609902336 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19679 START: 1671519396803297792 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, dev, --all
+
+PID: 19679 START: 1671519396811497728 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19679 END: 1671519396811639552 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19679 START: 1671519396811681792 :: parsing /root/.gitconfig
+
+PID: 19679 END: 1671519396811718656 :: parsing /root/.gitconfig
+
+PID: 19679 START: 1671519396815875840 :git command None ['git', 'check-ref-format', 'heads/dev'] with debug: : git check-ref-format heads/dev
+
+PID: 19679 END: 1671519396817999616 :git command None ['git', 'check-ref-format', 'heads/dev'] with debug: : git check-ref-format heads/dev
+
+PID: 19679 START: 1671519396927738880 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19679 END: 1671519396931326464 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19679 END: 1671519396931456256 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, dev, --all
+
+PID: 19692 START: 1671519429247255040 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19692 START: 1671519429253920000 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19692 END: 1671519429254107392 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19692 START: 1671519429254172672 :: parsing /root/.gitconfig
+
+PID: 19692 END: 1671519429254245376 :: parsing /root/.gitconfig
+
+PID: 19692 START: 1671519429369440000 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19692 END: 1671519429372398592 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19692 END: 1671519429372526080 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 19707 START: 1671519467226416128 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, OSlab, /home/zhouxunzhe/OSlab
+
+PID: 19707 START: 1671519467234549504 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19707 END: 1671519467234749184 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19707 START: 1671519467234817536 :: parsing /root/.gitconfig
+
+PID: 19707 END: 1671519467234863616 :: parsing /root/.gitconfig
+
+PID: 19707 START: 1671519467241230336 :git command None ['git', 'check-ref-format', 'heads/OSlab'] with debug: : git check-ref-format heads/OSlab
+
+PID: 19707 END: 1671519467244135680 :git command None ['git', 'check-ref-format', 'heads/OSlab'] with debug: : git check-ref-format heads/OSlab
+
+PID: 19707 START: 1671519467355415552 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19707 END: 1671519467358296064 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19707 END: 1671519467358686208 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, OSlab, /home/zhouxunzhe/OSlab
+
+PID: 19715 START: 1671519475282058496 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, OSlab, /root/home/zhouxunzhe/OSlab
+
+PID: 19715 START: 1671519475288691968 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19715 END: 1671519475288878336 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 19715 START: 1671519475289109760 :: parsing /root/.gitconfig
+
+PID: 19715 END: 1671519475289199104 :: parsing /root/.gitconfig
+
+PID: 19715 START: 1671519475294133504 :git command None ['git', 'check-ref-format', 'heads/OSlab'] with debug: : git check-ref-format heads/OSlab
+
+PID: 19715 END: 1671519475296625920 :git command None ['git', 'check-ref-format', 'heads/OSlab'] with debug: : git check-ref-format heads/OSlab
+
+PID: 19715 START: 1671519475390779392 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19715 END: 1671519475393296896 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 19715 END: 1671519475393592064 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, OSlab, /root/home/zhouxunzhe/OSlab
+
+PID: 3275 START: 1671521221746086912 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 3275 START: 1671521221807041024 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3275 END: 1671521221807296256 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3275 START: 1671521221807358464 :: parsing /root/.gitconfig
+
+PID: 3275 END: 1671521221807513088 :: parsing /root/.gitconfig
+
+PID: 3275 START: 1671521221916124160 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3275 END: 1671521221919834112 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3275 END: 1671521221919964672 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 3791 START: 1671522633146384640 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 3791 START: 1671522633188392448 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3791 END: 1671522633188816128 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3791 START: 1671522633188871936 :: parsing /root/.gitconfig
+
+PID: 3791 END: 1671522633189045248 :: parsing /root/.gitconfig
+
+PID: 3791 START: 1671522633310894080 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3791 END: 1671522633314030848 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3791 END: 1671522633314174208 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 3807 START: 1671522647075561216 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, moonfly, --all
+
+PID: 3807 START: 1671522647081741312 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3807 END: 1671522647081937664 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3807 START: 1671522647082001664 :: parsing /root/.gitconfig
+
+PID: 3807 END: 1671522647082076672 :: parsing /root/.gitconfig
+
+PID: 3807 START: 1671522647087320576 :git command None ['git', 'check-ref-format', 'heads/moonfly'] with debug: : git check-ref-format heads/moonfly
+
+PID: 3807 END: 1671522647089402368 :git command None ['git', 'check-ref-format', 'heads/moonfly'] with debug: : git check-ref-format heads/moonfly
+
+PID: 3807 START: 1671522647201129984 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3807 END: 1671522647204030464 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3807 END: 1671522647204158464 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: start, moonfly, --all
+
+PID: 3827 START: 1671522654932074240 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 3827 START: 1671522654939136768 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3827 END: 1671522654939258112 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3827 START: 1671522654939289856 :: parsing /root/.gitconfig
+
+PID: 3827 END: 1671522654939326208 :: parsing /root/.gitconfig
+
+PID: 3827 START: 1671522655055671808 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3827 END: 1671522655058087424 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3827 END: 1671522655058209280 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: upload
+
+PID: 3840 START: 1671522661328921344 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 3840 START: 1671522661339015936 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3840 END: 1671522661339141376 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3840 START: 1671522661339176960 :: parsing /root/.gitconfig
+
+PID: 3840 END: 1671522661339427328 :: parsing /root/.gitconfig
+
+PID: 3840 START: 1671522661456028672 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3840 END: 1671522661459021568 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3840 END: 1671522661459181824 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branch
+
+PID: 3858 START: 1671522726412111360 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branches
+
+PID: 3858 START: 1671522726418807296 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3858 END: 1671522726418928896 :: parsing /home/zhouxunzhe/OSlab/.repo/manifests.git/config
+
+PID: 3858 START: 1671522726418964224 :: parsing /root/.gitconfig
+
+PID: 3858 END: 1671522726419000576 :: parsing /root/.gitconfig
+
+PID: 3858 START: 1671522726536268800 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3858 END: 1671522726539410176 :git command None ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 3858 END: 1671522726539572736 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: branches
+

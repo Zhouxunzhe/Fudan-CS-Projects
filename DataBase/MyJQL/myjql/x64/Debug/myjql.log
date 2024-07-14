@@ -1,0 +1,19 @@
+﻿  block.c
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\block.c(40,39): warning C4018: “>=”: 有符号/无符号不匹配
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\block.c(86,55): warning C4018: “<”: 有符号/无符号不匹配
+  buffer_pool.c
+  file_io.c
+  hash_map.c
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\hash_map.c(153,1): warning C4133: “初始化”: 从“Page *”到“HashMapBlock *”的类型不兼容
+  hash_map_main.c
+  str.c
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\str.c(65,1): warning C4244: “初始化”: 从“off_t”转换到“short”，可能丢失数据
+  str_main.c
+  table.c
+  正在生成代码...
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\str.c(59): warning C4716: “compare_string_record”: 必须返回一个值
+C:\Users\ZhouXunZhe\Desktop\数据库\myjql\myjql\buffer_pool.c(75): warning C4715: “get_page”: 不是所有的控件路径都返回值
+  hash_map_test.cpp
+  str_test.cpp
+  正在生成代码...
+  myjql.vcxproj -> C:\Users\ZhouXunZhe\Desktop\数据库\myjql\x64\Debug\myjql.exe

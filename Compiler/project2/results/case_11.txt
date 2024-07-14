@@ -1,0 +1,10 @@
+invalid token: <5, 1> an out of range integer
+invalid token: <14, 1> an invalid string with tab in it
+invalid token: <17, 1> an invalid string with many tabs in it
+invalid token: <23, 1> an overly long string
+invalid token: <35, 1> an overly long identifier
+invalid token: <44, 1> a bad character (bell)
+invalid token: <50, 1> an unterminated string
+invalid token: <53, 1> an unterminated string
+invalid token: <56, 1> an unterminated string
+invalid token: <74, 1> an unterminated comment

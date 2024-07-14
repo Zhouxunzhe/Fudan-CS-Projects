@@ -1,0 +1,237 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: I
+............ <2,13> Grammar: type INTEGER
+.............. <2,13> Token: identifier: INTEGER
+............ <2,24> Grammar: expression 0
+.............. <2,24> Token: integer: 0
+...... <3,5> Grammar: declaration 
+........ <3,10> Grammar: type_decl_sm 
+.......... <3,10> Grammar: type_decl 
+............ <3,10> Token: identifier: COMPLEX
+............ <3,21> Grammar: type 
+.............. <3,28> Grammar: component 
+................ <3,28> Token: identifier: R
+................ <3,31> Grammar: type REAL
+.................. <3,31> Token: identifier: REAL
+.............. <3,37> Grammar: component_sm 
+................ <3,37> Grammar: component 
+.................. <3,37> Token: identifier: I
+.................. <3,41> Grammar: type REAL
+.................... <3,41> Token: identifier: REAL
+...... <4,5> Grammar: declaration 
+........ <4,10> Grammar: type_decl_sm 
+.......... <4,10> Grammar: type_decl 
+............ <4,10> Token: identifier: PAIR
+............ <4,18> Grammar: type 
+.............. <4,25> Grammar: component 
+................ <4,25> Token: identifier: FIRST
+................ <4,32> Grammar: type COMPLEX
+.................. <4,32> Token: identifier: COMPLEX
+.............. <4,41> Grammar: component_sm 
+................ <4,41> Grammar: component 
+.................. <4,41> Token: identifier: SECOND
+.................. <4,50> Grammar: type COMPLEX
+.................... <4,50> Token: identifier: COMPLEX
+...... <5,5> Grammar: declaration 
+........ <5,9> Grammar: var_decl_sm 
+.......... <5,9> Grammar: var_decl 
+............ <5,9> Token: identifier: C
+............ <5,13> Grammar: type COMPLEX
+.............. <5,13> Token: identifier: COMPLEX
+............ <5,24> Grammar: expression COMPLEX{R:=0.0}
+.............. <5,24> Token: identifier: COMPLEX
+.............. <5,32> Grammar: comp_values {R:=0.0}
+................ <5,34> Token: identifier: R
+................ <5,39> Grammar: expression 0.0
+.................. <5,39> Token: real: 0.0
+................ <5,42> Grammar: expression_id_semicolon_assign_sm 
+.................. <5,44> Token: identifier: I
+.................. <5,49> Grammar: expression 0.0
+.................... <5,49> Token: real: 0.0
+...... <6,5> Grammar: declaration 
+........ <6,9> Grammar: var_decl_sm 
+.......... <6,9> Grammar: var_decl 
+............ <6,9> Token: identifier: P
+............ <6,13> Grammar: type PAIR
+.............. <6,13> Token: identifier: PAIR
+............ <6,21> Grammar: expression PAIR{FIRST:=COMPLEX{R:=0.0}}
+.............. <6,21> Token: identifier: PAIR
+.............. <6,26> Grammar: comp_values {FIRST:=COMPLEX{R:=0.0}}
+................ <6,28> Token: identifier: FIRST
+................ <6,37> Grammar: expression COMPLEX{R:=0.0}
+.................. <6,37> Token: identifier: COMPLEX
+.................. <6,45> Grammar: comp_values {R:=0.0}
+.................... <6,47> Token: identifier: R
+.................... <6,52> Grammar: expression 0.0
+...................... <6,52> Token: real: 0.0
+.................... <6,55> Grammar: expression_id_semicolon_assign_sm 
+...................... <6,57> Token: identifier: I
+...................... <6,62> Grammar: expression 0.0
+........................ <6,62> Token: real: 0.0
+................ <6,67> Grammar: expression_id_semicolon_assign_sm 
+.................. <7,28> Token: identifier: SECOND
+.................. <7,38> Grammar: expression COMPLEX{R:=0.0}
+.................... <7,38> Token: identifier: COMPLEX
+.................... <7,46> Grammar: comp_values {R:=0.0}
+...................... <7,48> Token: identifier: R
+...................... <7,53> Grammar: expression 0.0
+........................ <7,53> Token: real: 0.0
+...................... <7,56> Grammar: expression_id_semicolon_assign_sm 
+........................ <7,58> Token: identifier: I
+........................ <7,63> Grammar: expression 0.0
+.......................... <7,63> Token: real: 0.0
+...... <8,5> Grammar: declaration 
+........ <8,15> Grammar: procedure_decl_sm 
+.......... <8,15> Grammar: procedure_decl 
+............ <8,15> Token: identifier: PRINT
+............ <8,20> Grammar: formal_params 
+............ <8,31> Grammar: body 
+.............. <9,2> Grammar: statement_sm 
+................ <9,2> Grammar: statement 
+.................. <9,7> Grammar: write_params 
+.................... <9,8> Grammar: write_expr 
+...................... <9,8> Token: string: "    ("
+.................... <9,15> Grammar: write_expr_comma_sm 
+...................... <9,17> Grammar: write_expr 
+........................ <9,17> Grammar: expression C.R
+.......................... <9,17> Grammar: l_value C.R
+............................ <9,17> Grammar: l_value C
+.............................. <9,17> Token: identifier: C
+............................ <9,19> Token: identifier: R
+...................... <9,22> Grammar: write_expr 
+........................ <9,22> Token: string: ", "
+...................... <9,28> Grammar: write_expr 
+........................ <9,28> Grammar: expression C.I
+.......................... <9,28> Grammar: l_value C.I
+............................ <9,28> Grammar: l_value C
+.............................. <9,28> Token: identifier: C
+............................ <9,30> Token: identifier: I
+...................... <9,33> Grammar: write_expr 
+........................ <9,33> Token: string: ")"
+.... <12,5> Grammar: statement_sm 
+...... <12,5> Grammar: statement 
+........ <12,5> Grammar: l_value C.R
+.......... <12,5> Grammar: l_value C
+............ <12,5> Token: identifier: C
+.......... <12,7> Token: identifier: R
+........ <12,12> Grammar: expression 1.0
+.......... <12,12> Token: real: 1.0
+...... <13,5> Grammar: statement 
+........ <13,5> Grammar: l_value C.I
+.......... <13,5> Grammar: l_value C
+............ <13,5> Token: identifier: C
+.......... <13,7> Token: identifier: I
+........ <13,12> Grammar: expression 0.0
+.......... <13,12> Token: real: 0.0
+...... <14,5> Grammar: statement 
+........ <14,5> Grammar: l_value P.FIRST
+.......... <14,5> Grammar: l_value P
+............ <14,5> Token: identifier: P
+.......... <14,7> Token: identifier: FIRST
+........ <14,16> Grammar: expression C
+.......... <14,16> Grammar: l_value C
+............ <14,16> Token: identifier: C
+...... <15,5> Grammar: statement 
+........ <15,5> Grammar: l_value C.R
+.......... <15,5> Grammar: l_value C
+............ <15,5> Token: identifier: C
+.......... <15,7> Token: identifier: R
+........ <15,12> Grammar: expression 0.0
+.......... <15,12> Token: real: 0.0
+...... <16,5> Grammar: statement 
+........ <16,5> Grammar: l_value C.I
+.......... <16,5> Grammar: l_value C
+............ <16,5> Token: identifier: C
+.......... <16,7> Token: identifier: I
+........ <16,12> Grammar: expression 1.0
+.......... <16,12> Token: real: 1.0
+...... <17,5> Grammar: statement 
+........ <17,5> Grammar: l_value P.SECOND
+.......... <17,5> Grammar: l_value P
+............ <17,5> Token: identifier: P
+.......... <17,7> Token: identifier: SECOND
+........ <17,17> Grammar: expression C
+.......... <17,17> Grammar: l_value C
+............ <17,17> Token: identifier: C
+...... <18,5> Grammar: statement 
+........ <18,5> Grammar: l_value C
+.......... <18,5> Token: identifier: C
+........ <18,10> Grammar: expression P.FIRST
+.......... <18,10> Grammar: l_value P.FIRST
+............ <18,10> Grammar: l_value P
+.............. <18,10> Token: identifier: P
+............ <18,12> Token: identifier: FIRST
+...... <19,5> Grammar: statement 
+........ <19,11> Grammar: write_params 
+.......... <19,12> Grammar: write_expr 
+............ <19,12> Token: string: "The first complex number should be (1.0, 0.0):"
+...... <20,5> Grammar: statement 
+........ <20,5> Token: identifier: PRINT
+........ <20,10> Grammar: actual_params 
+...... <21,5> Grammar: statement 
+........ <21,5> Grammar: l_value C
+.......... <21,5> Token: identifier: C
+........ <21,10> Grammar: expression P.SECOND
+.......... <21,10> Grammar: l_value P.SECOND
+............ <21,10> Grammar: l_value P
+.............. <21,10> Token: identifier: P
+............ <21,12> Token: identifier: SECOND
+...... <22,5> Grammar: statement 
+........ <22,11> Grammar: write_params 
+.......... <22,12> Grammar: write_expr 
+............ <22,12> Token: string: "The second complex number should be (0.0, 1.0):"
+...... <23,5> Grammar: statement 
+........ <23,5> Token: identifier: PRINT
+........ <23,10> Grammar: actual_params 
+...... <24,5> Grammar: statement 
+........ <24,8> Grammar: expression P.FIRST.RNEP.SECOND.R
+.......... <24,8> Grammar: expression P.FIRST.R
+............ <24,8> Grammar: l_value P.FIRST.R
+.............. <24,8> Grammar: l_value P.FIRST
+................ <24,8> Grammar: l_value P
+.................. <24,8> Token: identifier: P
+................ <24,10> Token: identifier: FIRST
+.............. <24,16> Token: identifier: R
+.......... <24,21> Grammar: expression P.SECOND.R
+............ <24,21> Grammar: l_value P.SECOND.R
+.............. <24,21> Grammar: l_value P.SECOND
+................ <24,21> Grammar: l_value P
+.................. <24,21> Token: identifier: P
+................ <24,23> Token: identifier: SECOND
+.............. <24,30> Token: identifier: R
+........ <25,2> Grammar: statement_sm 
+.......... <25,2> Grammar: statement 
+............ <25,8> Grammar: write_params 
+.............. <25,9> Grammar: write_expr 
+................ <25,9> Token: string: "and these two complex numbers are not equal!"
+........ <26,5> Grammar: elseif_then_sm 
+.......... <26,11> Grammar: expression P.FIRST.INEP.SECOND.I
+............ <26,11> Grammar: expression P.FIRST.I
+.............. <26,11> Grammar: l_value P.FIRST.I
+................ <26,11> Grammar: l_value P.FIRST
+.................. <26,11> Grammar: l_value P
+.................... <26,11> Token: identifier: P
+.................. <26,13> Token: identifier: FIRST
+................ <26,19> Token: identifier: I
+............ <26,24> Grammar: expression P.SECOND.I
+.............. <26,24> Grammar: l_value P.SECOND.I
+................ <26,24> Grammar: l_value P.SECOND
+.................. <26,24> Grammar: l_value P
+.................... <26,24> Token: identifier: P
+.................. <26,26> Token: identifier: SECOND
+................ <26,33> Token: identifier: I
+.......... <27,2> Grammar: statement_sm 
+............ <27,2> Grammar: statement 
+.............. <27,8> Grammar: write_params 
+................ <27,9> Grammar: write_expr 
+.................. <27,9> Token: string: "and these two complex numbers are not equal!"
+........ <29,2> Grammar: statement_sm 
+.......... <29,2> Grammar: statement 
+............ <29,8> Grammar: write_params 
+.............. <29,9> Grammar: write_expr 
+................ <29,9> Token: string: "and these two complex numbers are equal?"

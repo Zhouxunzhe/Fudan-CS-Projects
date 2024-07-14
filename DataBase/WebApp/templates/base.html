@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form method="post" action="/form_login" class="was-validated">
+          <div class="modal-header">
+            <h4 class="modal-title" id="userModalLabel">Login</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="sid" name="sid"required placeholder="Student id">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <input type="password" class="form-control" id="password" name="password"required placeholder="Password">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p><div style="font-weight:bold;font-style:italic;color: rgb(0, 0, 0);">don't have any account?</div></p>
+          <div class="d-grid">
+            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#userModal2">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="userModal2" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form method="post" action="/form_add_user" class="was-validated">
+          <div class="modal-header">
+            <h5 class="modal-title" id="userModalLabel">Register</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="sid" class="form-label">Student_id</label>
+              <input type="text" class="form-control" id="sid" name="sid"required placeholder="Student id">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name"required placeholder="Name">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="major" class="form-label">Major</label>
+              <input type="text" class="form-control" id="major" name="major"required placeholder="Major">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phone" name="phone"required placeholder="xxx-xxxx-xxxx">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="situation" class="form-label">Infected Situation</label>
+              <input type="text" class="form-control" id="situation" name="situation"required placeholder="positive/negative">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="bid" class="form-label">Building ID</label>
+              <input type="text" class="form-control" id="bid" name="bid"required placeholder="Building id">
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password"required>
+              <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Xunzhe's Web - {% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/statics/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    
+<main>
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+      <div class="container mt-3">
+        <a class="navbar-brand" href="/"><img src="/statics/img/fudan.jpg" alt="fudan" width="160" height="50"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        {% if exists("user") %}
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">admin</a>
+            <ul class="dropdown-menu dropdown-menu-muted dropdown-menu-end" aria-labelledby="dropdown07XL">
+              <li><a class="dropdown-item" href="/form_logout">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        {% else %}
+        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#userModal">Login</button>
+        
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+
+  {% if exists("message") %}
+    {% if exists("success") %}
+      {% if success %}
+      <div class="alert alert-success" role="alert">
+        {{ message }}
+      </div>
+      {% else %}
+      <div class="alert alert-danger" role="alert">
+        {{ message }}
+      </div>
+      {% endif %}
+    {% else %}
+    <div class="alert alert-primary" role="alert">
+      {{ message }}
+    </div>
+    {% endif %}
+  {% endif %}
+
+  <div class="container py-4">
+
+    {% block content %}{% endblock %}
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+      &copy; 2022 by zxz
+    </footer>
+  </div>
+</main>
+
+  <script src="/statics/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>

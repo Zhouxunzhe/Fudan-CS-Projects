@@ -1,0 +1,122 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: I
+............ <2,13> Grammar: type INTEGER
+.............. <2,13> Token: identifier: INTEGER
+............ <2,24> Grammar: expression 0
+.............. <2,24> Token: integer: 0
+...... <3,5> Grammar: declaration 
+........ <3,15> Grammar: procedure_decl_sm 
+.......... <3,15> Grammar: procedure_decl 
+............ <3,15> Token: identifier: ADDONE
+............ <3,21> Grammar: formal_params 
+............ <4,2> Grammar: body 
+.............. <4,2> Grammar: declaration_sm 
+................ <4,2> Grammar: declaration 
+.................. <4,6> Grammar: var_decl_sm 
+.................... <4,6> Grammar: var_decl 
+...................... <4,6> Token: identifier: J
+...................... <4,10> Grammar: type INTEGER
+........................ <4,10> Token: identifier: INTEGER
+...................... <4,21> Grammar: expression 0
+........................ <4,21> Token: integer: 0
+................ <5,2> Grammar: declaration 
+.................. <5,12> Grammar: procedure_decl_sm 
+.................... <5,12> Grammar: procedure_decl 
+...................... <5,12> Token: identifier: OKAY
+...................... <5,16> Grammar: formal_params 
+...................... <6,6> Grammar: body 
+........................ <6,6> Grammar: declaration_sm 
+.......................... <6,6> Grammar: declaration 
+............................ <6,10> Grammar: var_decl_sm 
+.............................. <6,10> Grammar: var_decl 
+................................ <6,10> Token: identifier: CONSTANT
+................................ <6,21> Grammar: type INTEGER
+.................................. <6,21> Token: identifier: INTEGER
+................................ <6,32> Grammar: expression 0
+.................................. <6,32> Token: integer: 0
+........................ <8,6> Grammar: statement_sm 
+.......................... <8,6> Grammar: statement 
+............................ <8,6> Grammar: l_value CONSTANT
+.............................. <8,6> Token: identifier: CONSTANT
+............................ <8,18> Grammar: expression 1
+.............................. <8,18> Token: integer: 1
+.......................... <9,6> Grammar: statement 
+............................ <9,6> Grammar: l_value J
+.............................. <9,6> Token: identifier: J
+............................ <9,11> Grammar: expression JADDCONSTANT
+.............................. <9,11> Grammar: expression J
+................................ <9,11> Grammar: l_value J
+.................................. <9,11> Token: identifier: J
+.............................. <9,15> Grammar: expression CONSTANT
+................................ <9,15> Grammar: l_value CONSTANT
+.................................. <9,15> Token: identifier: CONSTANT
+.............. <12,2> Grammar: statement_sm 
+................ <12,2> Grammar: statement 
+.................. <12,2> Grammar: l_value J
+.................... <12,2> Token: identifier: J
+.................. <12,7> Grammar: expression I
+.................... <12,7> Grammar: l_value I
+...................... <12,7> Token: identifier: I
+................ <13,2> Grammar: statement 
+.................. <13,2> Token: identifier: OKAY
+.................. <13,6> Grammar: actual_params 
+................ <14,2> Grammar: statement 
+.................. <14,2> Grammar: l_value I
+.................... <14,2> Token: identifier: I
+.................. <14,7> Grammar: expression J
+.................... <14,7> Grammar: l_value J
+...................... <14,7> Token: identifier: J
+.... <17,5> Grammar: statement_sm 
+...... <17,5> Grammar: statement 
+........ <17,5> Grammar: l_value I
+.......... <17,5> Token: identifier: I
+........ <17,10> Grammar: expression 0
+.......... <17,10> Token: integer: 0
+...... <18,5> Grammar: statement 
+........ <18,10> Grammar: write_params 
+.......... <18,11> Grammar: write_expr 
+............ <18,11> Token: string: "I = "
+.......... <18,17> Grammar: write_expr_comma_sm 
+............ <18,19> Grammar: write_expr 
+.............. <18,19> Grammar: expression I
+................ <18,19> Grammar: l_value I
+.................. <18,19> Token: identifier: I
+............ <18,22> Grammar: write_expr 
+.............. <18,22> Token: string: " (SHOULD BE 0)"
+...... <19,5> Grammar: statement 
+........ <19,5> Token: identifier: ADDONE
+........ <19,11> Grammar: actual_params 
+...... <20,5> Grammar: statement 
+........ <20,10> Grammar: write_params 
+.......... <20,11> Grammar: write_expr 
+............ <20,11> Token: string: "I = "
+.......... <20,17> Grammar: write_expr_comma_sm 
+............ <20,19> Grammar: write_expr 
+.............. <20,19> Grammar: expression I
+................ <20,19> Grammar: l_value I
+.................. <20,19> Token: identifier: I
+............ <20,22> Grammar: write_expr 
+.............. <20,22> Token: string: " (SHOULD BE 1)"
+...... <21,5> Grammar: statement 
+........ <21,5> Token: identifier: ADDONE
+........ <21,11> Grammar: actual_params 
+...... <22,5> Grammar: statement 
+........ <22,10> Grammar: write_params 
+.......... <22,11> Grammar: write_expr 
+............ <22,11> Token: string: "I = "
+.......... <22,17> Grammar: write_expr_comma_sm 
+............ <22,19> Grammar: write_expr 
+.............. <22,19> Grammar: expression I
+................ <22,19> Grammar: l_value I
+.................. <22,19> Token: identifier: I
+............ <22,22> Grammar: write_expr 
+.............. <22,22> Token: string: " (SHOULD BE 2)"
+...... <23,5> Grammar: statement 
+........ <23,10> Grammar: write_params 
+.......... <23,11> Grammar: write_expr 
+............ <23,11> Token: string: "ALL DONE!"

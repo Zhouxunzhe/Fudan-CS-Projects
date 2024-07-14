@@ -1,0 +1,299 @@
+commit 3e59481a9287ecdab2348356a92f96b45a4bda49
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Tue Dec 20 03:07:57 2022 +0800
+
+    finish and test lab10
+
+commit 218ca270230bbb0f2ab318fe8730e95bddc6b739
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Tue Dec 20 02:36:50 2022 +0800
+
+    fix some bugs
+
+commit 550a69f4b9afb1c82a2c5f65bcaa1a184b2e9366
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Tue Dec 20 01:19:43 2022 +0800
+
+    modify uvmunmap and uvmcopy
+
+commit 21f413f311b249bbc9c4f87f1c37dbc72bb69d22
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Tue Dec 20 01:16:00 2022 +0800
+
+    modify fork and exit
+
+commit 14c91bd3dfff9c3b79899f56522fe6df60b8c73d
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Tue Dec 20 01:09:54 2022 +0800
+
+    create unmap
+
+commit 9c64444c4d24951f898af9e2f9a4eaac814927d7
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Mon Dec 19 23:53:41 2022 +0800
+
+    modify usertrap
+
+commit f77c7155673930cc0007364041f3539d38ba3f9d
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sun Dec 18 19:38:40 2022 +0800
+
+    kalloctest
+
+commit 24f79c44376b3480712fe0e6b23f21b88cc04bcc
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sun Dec 18 18:08:46 2022 +0800
+
+    modify getH and getHb
+
+commit 0324ea42eee6c83b96e15a65903ad4f269b15cb9
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sun Dec 18 17:56:06 2022 +0800
+
+    complish brelse
+
+commit 300a9693c2b0c5482d73687975ed592fb0849fc9
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sun Dec 18 11:35:11 2022 +0800
+
+    complish bget
+
+commit c19fc0bea15c8c26a73ab6a24f6a52230a9eb430
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sun Dec 18 10:07:40 2022 +0800
+
+    complish binit
+
+commit cd84653e48c9bd4d84cfb6ea6398fe8e101f8b93
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 21:18:13 2022 +0800
+
+    test memory allocator
+
+commit 45c3e6ec3e17f0c3c5b06aeeca091f1eed2d22ae
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 21:09:47 2022 +0800
+
+    memory allocator:
+
+commit c5a5f1165a03dd6e6d81c266413fdb035558ae54
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 20:45:17 2022 +0800
+
+    finish testing networking
+
+commit c456e996dcbae0cea9ec7fc239446c650143fc6f
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 14:53:27 2022 +0800
+
+    test net
+
+commit ba15a68686263c234e2b4bc2f2004d4b04aa7593
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 14:46:03 2022 +0800
+
+    modify e1000_recv
+
+commit 8204ac9918b8f3ec123ccbe7bb31ef448fb8eb61
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 14:44:58 2022 +0800
+
+    modify e1000_transmit
+
+commit 25b9f20fa89ecbab724695f3fc6ef80fb798fda0
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 02:24:57 2022 +0800
+
+    finish lab7
+
+commit 64a3452df56ffdc19b5be9cdf5a88398d5ee7e95
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 00:22:59 2022 +0800
+
+    modify lab7
+
+commit 954db56e1ee04dc79cb7c292c9527d63af3faf5d
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Sat Dec 17 00:15:16 2022 +0800
+
+    fix bugs
+
+commit 7340206c49c4b6b6487517ed53707e25f34c9907
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 23:55:07 2022 +0800
+
+    add function in vm.c and modify
+
+commit e4c613d6a03f76cc57f9deda0971e45014b30ff8
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 23:45:08 2022 +0800
+
+    modify vm.c
+
+commit 6687813b58f0b880437f23c40a50b433c2e40cf9
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 23:42:11 2022 +0800
+
+    modify kalloc.c
+
+commit fd378a0fdb1096dc81f66ca6bef58b596e9870b2
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 23:41:33 2022 +0800
+
+    modify kalloc.c
+
+commit 068a79de00f9a50561dad89e186d7c16629a9279
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 22:38:07 2022 +0800
+
+    finish lab6
+
+commit ebaba59b4a9c634d6b405d910686f0b8c8a98265
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 21:47:25 2022 +0800
+
+    lab6 success
+
+commit 6ca879fc8942b66b32c8c4172f51c805b1566a5c
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 21:42:23 2022 +0800
+
+    fixing bugs
+
+commit 73f9235152506bbd8f777e4ba27ec47bb1d6d92f
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 20:59:00 2022 +0800
+
+    modify lab6
+
+commit 6f6bed568dde16a9709d957b7b2c4ef2a783415a
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 20:42:16 2022 +0800
+
+    symlinktest failed
+
+commit 98bec2e3691d6073c7feb678da122c5d83c15a3f
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 20:30:02 2022 +0800
+
+    complishment of sys_open()
+
+commit d56c8d4ad54bf24a86c5068eba1e661bb235e135
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 19:46:53 2022 +0800
+
+    complishment of symlink()
+
+commit 7d3e545ad19c7a4e8e40dbaf4cd041c698c31a50
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 19:24:37 2022 +0800
+
+    modify lab6
+
+commit 4e42b688146b68b0a88deb46ab2d2b527f88aa9b
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 19:06:07 2022 +0800
+
+    declaration of symbolic links
+
+commit efe94a9721ccf7613b856705ccb15f0c59d3a53f
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 18:11:11 2022 +0800
+
+    run lab6 successfully
+
+commit 4b89d0e5d2df749f0eda15ebc865f3f28b162f72
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 16:55:33 2022 +0800
+
+    try to fix bugs
+
+commit ff15a993568c141ecf5a77685305fbfc0df4d509
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 16:50:21 2022 +0800
+
+    try to fix bugs
+
+commit 82f66f7016230cc27fec325628b4d14697b9f906
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 16:14:12 2022 +0800
+
+    lab6 large files failed
+
+commit 742717f184f292a557f9d9675e0accc36d23e6cd
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 16:10:08 2022 +0800
+
+    commit lab6
+
+commit 06264b75fcbf4e52f15e3e7164a3dbd84736a259
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 15:42:44 2022 +0800
+
+    modify lab6
+
+commit 4ad4e5070a2112f54d8307159ef787931ee55f2a
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 14:48:51 2022 +0800
+
+    modify lab6
+
+commit bfdc1e798a71d639e3e336b1ee993a5f2223c712
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 14:48:16 2022 +0800
+
+    add lab6
+
+commit 68f82dcbbb7ddd63676f6564e08136036fa11893
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:39:23 2022 +0800
+
+    commit lab5 folder
+
+commit 5145877bdf06e74cd5298d538f43174cae8d101e
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:38:29 2022 +0800
+
+    commit lab4 folder
+
+commit c30e30ae5c8380e1cb3d5b1dca37dc04825e2613
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:36:50 2022 +0800
+
+    commit lab3 folder
+
+commit d2ea4768d7bf5f65f1ec0765c9610466875a060b
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:29:47 2022 +0800
+
+    commit lab2 folder
+
+commit e7bb707d2eeb1608faed1516921396599a631bff
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:26:36 2022 +0800
+
+    commit lab1 folder
+
+commit 2f10a999775e9142a07943ab3a4fdcaae095fa5f
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:24:38 2022 +0800
+
+    modify lab0 folder
+
+commit eba6950c995d32069e1231f05754849ddad2a3e9
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:23:08 2022 +0800
+
+    modify lab0 folder
+
+commit a38dc905f5043085b1e975847f005396207e774a
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:20:21 2022 +0800
+
+    commit lab0 folder
+
+commit 37feabd2e0177ff3acd81115efcc5fea219682fe
+Author: zxz <20307110315@fudan.edu.cn>
+Date:   Fri Dec 16 02:16:20 2022 +0800
+
+    lab0

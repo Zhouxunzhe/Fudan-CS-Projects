@@ -1,0 +1,55 @@
+ssh 6vze9kgri0@gwtrqssvei-public.bastionhost.aliyuncs.com -p 60022
+Dm0iRmB8Ba_p6_hzLR
+
+
+13fl9j3a8d
+l_PV1Bc8ExM22go5yu
+
+wget http://atec-code.oss-cn-beijing-internal.aliyuncs.com/demo/atec_fraud_trade_dataset/demo.tgz
+mkdir demo
+tar xzf demo.tgz -C ~/demo/
+
+wget http://atec-zark.oss-cn-beijing-internal.aliyuncs.com/adabench/adabench_cli
+chmod +x adabench_cli
+
+cd ~/demo/atec_project
+LOCAL=1 sh run.sh
+
+cd ~/demo
+docker build -f Dockerfile --network=host -t zark-image-repo-registry-vpc.cn-beijing.cr.aliyuncs.com/zark/atec-520:v18 .   //需要更改
+
+cd ~
+./adabench_cli get-docker-token --dataset atec_fraud_trade_dataset
+
+docker login --username=cr_temp_user zark-image-repo-registry-vpc.cn-beijing.cr.aliyuncs.com
+
+eyJhdXRoVG9rZW5JZGVudGlmaWVyIjoiM2JhZGI2YmY4YjhmNGI5MzliM2M4YTE4MWYyYWI1OTUiLCJpbnN0YW5jZUlkIjoiY3JpLTg5b3kxdnc4cTRmZWxqeXoiLCJ0aW1lIjoiMTY3MDc1NzIyOTAwMCIsInR5cGUiOiJzdHMiLCJ1c2VySWQiOiIxMjI4NTI4NjcxMzExMzc4In0:49d524e72af7a1a9349fbbc0a36d1c681d1be9fc
+
+docker push zark-image-repo-registry-vpc.cn-beijing.cr.aliyuncs.com/zark/atec-520:v18   //需要更改
+
+./adabench_cli run -t image:///home/admin/atec_project --dataset atec_fraud_trade_dataset --image zark-image-repo-registry-vpc.cn-beijing.cr.aliyuncs.com/zark/atec-520:v18  //需要更改
+
+2: 5aa4b22a-777c-11ed-8d31-00163e32f7bd
+3: 1698da88-77d2-11ed-8cbd-00163e32f7bd 01c2530a-793f-11ed-8d31-00163e32f7bd
+4: 107938c4-78a8-11ed-8bde-00163e32f7bd
+5: 36d9e610-78aa-11ed-8d31-00163e32f7bd
+6: e6284c2a-78ae-11ed-8333-00163e32f7bd
+7: 0edb9864-78b6-11ed-afb4-00163e32f7bd
+9: 2c8230b4-78c3-11ed-8333-00163e32f7bd
+10:8fbe84a2-78c8-11ed-8cbd-00163e32f7bd f987f5c4-78ca-11ed-8333-00163e32f7bd
+11:ce491322-78cd-11ed-9af7-00163e32f7bd
+12:c0fede2a-78cf-11ed-8bde-00163e32f7bd
+13:80c20a04-7923-11ed-9af7-00163e32f7bd
+14:d6e4286a-7926-11ed-8cbd-00163e32f7bd
+15:8c0a83a6-793b-11ed-a19e-00163e32f7bd
+16:a9ceaf2e-793c-11ed-8d31-00163e32f7bd
+17:533304e8-793d-11ed-8333-00163e32f7bd
+18:7300ef78-793e-11ed-8bde-00163e32f7bd
+
+./adabench_cli run-desc --run_id d6e4286a-7926-11ed-8cbd-00163e32f7bd
+./adabench_cli run-log --run_id d6e4286a-7926-11ed-8cbd-00163e32f7bd
+
+source ~/demo/atec_project/your_name_env/bin/activate
+pip install ...
+
+source ~/demo/atec_project/your_name_env/bin/deactivate

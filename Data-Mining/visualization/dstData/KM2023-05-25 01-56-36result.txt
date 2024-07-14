@@ -1,0 +1,6 @@
+------K-Means Experiment-------
+adjusted_rand_score: 0.993424
+FMI: 0.993424
+Silhouette: 0.392889
+ CHI: 610.468110
+------End------

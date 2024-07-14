@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu May 19 12:53:47 2022
+# Process ID: 4924
+# Current directory: C:/Users/ZhouXunZhe/Desktop/PWM_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4844 C:\Users\ZhouXunZhe\Desktop\PWM_LED\PWM_LED.xpr
+# Log file: C:/Users/ZhouXunZhe/Desktop/PWM_LED/vivado.log
+# Journal file: C:/Users/ZhouXunZhe/Desktop/PWM_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ZhouXunZhe/Desktop/PWM_LED/PWM_LED.xpr
+INFO: [Project 1-313] Project file moved from 'C:/_SamData/Vivado2022-/PWM_LED' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/ZhouXunZhe/Desktop/raw2coe/SuperMario.coe' provided. It will be converted relative to IP Instance files '../../../../../raw2coe/SuperMario.coe'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 19 13:08:41 2022...

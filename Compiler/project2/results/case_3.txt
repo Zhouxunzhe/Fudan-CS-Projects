@@ -1,0 +1,129 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: A
+............ <2,10> Grammar: id_comma_sm 
+.............. <2,12> Token: identifier: B
+............ <2,16> Grammar: type REAL
+.............. <2,16> Token: identifier: REAL
+............ <2,24> Grammar: expression 0.0
+.............. <2,24> Token: real: 0.0
+...... <3,5> Grammar: declaration 
+........ <3,9> Grammar: var_decl_sm 
+.......... <3,9> Grammar: var_decl 
+............ <3,9> Token: identifier: I
+............ <3,10> Grammar: id_comma_sm 
+.............. <3,12> Token: identifier: J
+............ <3,16> Grammar: type INTEGER
+.............. <3,16> Token: identifier: INTEGER
+............ <3,27> Grammar: expression 0
+.............. <3,27> Token: integer: 0
+.... <5,5> Grammar: statement_sm 
+...... <5,5> Grammar: statement 
+........ <5,5> Grammar: l_value A
+.......... <5,5> Token: identifier: A
+........ <5,10> Grammar: expression 5.0
+.......... <5,10> Token: real: 5.0
+...... <6,5> Grammar: statement 
+........ <6,5> Grammar: l_value I
+.......... <6,5> Token: identifier: I
+........ <6,10> Grammar: expression NEG3
+.......... <6,11> Grammar: expression 3
+............ <6,11> Token: integer: 3
+...... <7,5> Grammar: statement 
+........ <7,5> Grammar: l_value J
+.......... <7,5> Token: identifier: J
+........ <7,10> Grammar: expression IMUL10
+.......... <7,10> Grammar: expression I
+............ <7,10> Grammar: l_value I
+.............. <7,10> Token: identifier: I
+.......... <7,14> Grammar: expression 10
+............ <7,14> Token: integer: 10
+...... <8,5> Grammar: statement 
+........ <8,5> Grammar: l_value B
+.......... <8,5> Token: identifier: B
+........ <8,10> Grammar: expression AADDI
+.......... <8,10> Grammar: expression A
+............ <8,10> Grammar: l_value A
+.............. <8,10> Token: identifier: A
+.......... <8,14> Grammar: expression I
+............ <8,14> Grammar: l_value I
+.............. <8,14> Token: identifier: I
+...... <9,5> Grammar: statement 
+........ <9,5> Grammar: l_value A
+.......... <9,5> Token: identifier: A
+........ <9,10> Grammar: expression JDIVB
+.......... <9,10> Grammar: expression J
+............ <9,10> Grammar: l_value J
+.............. <9,10> Token: identifier: J
+.......... <9,14> Grammar: expression B
+............ <9,14> Grammar: l_value B
+.............. <9,14> Token: identifier: B
+...... <10,5> Grammar: statement 
+........ <10,5> Grammar: l_value J
+.......... <10,5> Token: identifier: J
+........ <10,10> Grammar: expression ISUBJ
+.......... <10,10> Grammar: expression I
+............ <10,10> Grammar: l_value I
+.............. <10,10> Token: identifier: I
+.......... <10,14> Grammar: expression J
+............ <10,14> Grammar: l_value J
+.............. <10,14> Token: identifier: J
+...... <11,5> Grammar: statement 
+........ <11,5> Grammar: l_value I
+.......... <11,5> Token: identifier: I
+........ <11,10> Grammar: expression JDIVI
+.......... <11,10> Grammar: expression J
+............ <11,10> Grammar: l_value J
+.............. <11,10> Token: identifier: J
+.......... <11,14> Grammar: expression I
+............ <11,14> Grammar: l_value I
+.............. <11,14> Token: identifier: I
+...... <12,5> Grammar: statement 
+........ <12,5> Grammar: l_value B
+.......... <12,5> Token: identifier: B
+........ <12,10> Grammar: expression ISUBB
+.......... <12,10> Grammar: expression I
+............ <12,10> Grammar: l_value I
+.............. <12,10> Token: identifier: I
+.......... <12,14> Grammar: expression B
+............ <12,14> Grammar: l_value B
+.............. <12,14> Token: identifier: B
+...... <13,5> Grammar: statement 
+........ <13,11> Grammar: write_params 
+.......... <13,13> Grammar: write_expr 
+............ <13,13> Token: string: " A = "
+.......... <13,20> Grammar: write_expr_comma_sm 
+............ <13,22> Grammar: write_expr 
+.............. <13,22> Grammar: expression NEGA
+................ <13,23> Grammar: expression A
+.................. <13,23> Grammar: l_value A
+.................... <13,23> Token: identifier: A
+............ <13,26> Grammar: write_expr 
+.............. <13,26> Token: string: " | B = "
+............ <13,37> Grammar: write_expr 
+.............. <13,37> Grammar: expression B
+................ <13,37> Grammar: l_value B
+.................. <13,37> Token: identifier: B
+...... <14,5> Grammar: statement 
+........ <14,11> Grammar: write_params 
+.......... <14,13> Grammar: write_expr 
+............ <14,13> Token: string: ""
+...... <15,5> Grammar: statement 
+........ <15,11> Grammar: write_params 
+.......... <15,13> Grammar: write_expr 
+............ <15,13> Token: string: " I = "
+.......... <15,20> Grammar: write_expr_comma_sm 
+............ <15,22> Grammar: write_expr 
+.............. <15,22> Grammar: expression I
+................ <15,22> Grammar: l_value I
+.................. <15,22> Token: identifier: I
+............ <15,25> Grammar: write_expr 
+.............. <15,25> Token: string: " |  J = "
+............ <15,37> Grammar: write_expr 
+.............. <15,37> Grammar: expression J
+................ <15,37> Grammar: l_value J
+.................. <15,37> Token: identifier: J

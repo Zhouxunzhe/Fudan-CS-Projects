@@ -1,0 +1,7 @@
+------DBSCAN Experiment-------
+adjusted_rand_score: 0.780444
+FMI: 0.780444
+Silhouette: 0.297536
+CHI: 261.519443
+Estimated number of noise points: 96 
+------End------

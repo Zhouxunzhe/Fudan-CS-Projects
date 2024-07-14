@@ -1,0 +1,57 @@
+feature_names=var_1 var_2 var_3 var_4 var_5 var_6 var_7 var_8 var_9 
+
+var_10 var_11 var_12 var_13 var_14 var_15 var_16 var_17 var_18 var_19 var_20 var_21
+
+hh 
+week_day 
+e_info_13 
+amt 
+card_e_info_2_rank 
+user__trade_cnt_nofail_15d_1d 
+user_amt_sum_nofail_15d_1d 
+user__trade_cnt_fail_15d_1d 
+user_amt_sum_fail_15d_1d
+
+feature_infos=none none none none none none none none none
+ 
+[0:1] [0:3] [0:2] [0:3] [0:6] [0:12] [-100:1] [-1:0.080357000231742859] [0:3] [0:10] [-2:0.69093412160873413] [-100:0.77978402376174927] 
+
+[0:23] 
+[0:6] 
+[0:1] 
+[0.0099503304809331894:10.820797920227051] 
+[-1:269] 
+[-1:625] 
+[-1:2829.9481951929906] 
+[-1:108] 
+[-1:603.85819762497806]
+
+
+feature_importances:
+amt=398
+hh=265
+var_17=198
+var_20=186
+user_amt_sum_fail_15d_1d=120
+week_day=110
+user_amt_sum_nofail_15d_1d=106
+var_16=86
+card_e_info_2_rank=74
+var_21=66
+user__trade_cnt_fail_15d_1d=53
+user__trade_cnt_nofail_15d_1d=32
+e_info_13=31
+var_15=29
+var_14=24
+var_19=24
+var_18=21
+var_13=2
+var_10=1
+
+
+缺失值：
+card_e_info_2_rank                6183
+user__trade_cnt_nofail_15d_1d     7717
+user_amt_sum_nofail_15d_1d        7717
+user__trade_cnt_fail_15d_1d      10453
+user_amt_sum_fail_15d_1d         10453

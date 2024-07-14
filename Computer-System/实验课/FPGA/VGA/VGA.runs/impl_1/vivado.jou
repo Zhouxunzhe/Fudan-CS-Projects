@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Mar 31 19:30:25 2022
+# Process ID: 16132
+# Current directory: C:/_SamData/Vivado2022/Codes/VGA/VGA.runs/impl_1
+# Command line: vivado.exe -log VGA_clkIP_Top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source VGA_clkIP_Top.tcl -notrace
+# Log file: C:/_SamData/Vivado2022/Codes/VGA/VGA.runs/impl_1/VGA_clkIP_Top.vdi
+# Journal file: C:/_SamData/Vivado2022/Codes/VGA/VGA.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source VGA_clkIP_Top.tcl -notrace

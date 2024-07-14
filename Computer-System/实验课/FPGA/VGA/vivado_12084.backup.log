@@ -1,0 +1,255 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Feb 13 16:55:48 2022
+# Process ID: 12084
+# Current directory: C:/_SamData/Vivado2022-/Codes/VGA
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3112 C:\_SamData\Vivado2022-\Codes\VGA\VGA.xpr
+# Log file: C:/_SamData/Vivado2022-/Codes/VGA/vivado.log
+# Journal file: C:/_SamData/Vivado2022-/Codes/VGA\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/_SamData/Vivado2022-/Codes/VGA/VGA.xpr
+INFO: [Project 1-313] Project file moved from 'C:/_SamData/Vivado2022-/VGA' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property top VGA_Stripes_Top [current_fileset]
+update_compile_order -fileset sources_1
+set_property top VGA_Stripes_Top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 16:58:13 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 16:58:13 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 17:03:21 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 17:03:21 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710259A
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Stripes_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Stripes_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 17:13:30 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 17:13:31 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Stripes_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property top VGA_Top [current_fileset]
+set_property top VGA_Top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 17:19:42 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 17:19:42 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property top VGA_Stripes_Top [current_fileset]
+update_compile_order -fileset sources_1
+set_property top VGA_Stripes_Top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 17:32:14 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 17:32:14 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Stripes_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Feb 13 17:38:20 2022] Launched synth_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/synth_1/runme.log
+[Sun Feb 13 17:38:20 2022] Launched impl_1...
+Run output will be captured here: C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/_SamData/Vivado2022-/Codes/VGA/VGA.runs/impl_1/VGA_Stripes_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: VGA_Stripes_Top
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2627.992 ; gain = 241.953
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'VGA_Stripes_Top' [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes_Top.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'clkDiv' [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'clkDiv' (1#1) [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'VGA640x480' [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA640x480.sv:1]
+	Parameter H_DISPLAY bound to: 640 - type: integer 
+	Parameter H_SYNC bound to: 96 - type: integer 
+	Parameter H_BACK bound to: 48 - type: integer 
+	Parameter H_FRONT bound to: 16 - type: integer 
+	Parameter V_DISPLAY bound to: 480 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_TOP bound to: 29 - type: integer 
+	Parameter V_BOTTOM bound to: 10 - type: integer 
+	Parameter H_SYNC_START bound to: 144 - type: integer 
+	Parameter H_SYNC_END bound to: 784 - type: integer 
+	Parameter H_PIXELS bound to: 800 - type: integer 
+	Parameter V_SYNC_START bound to: 31 - type: integer 
+	Parameter V_SYNC_END bound to: 511 - type: integer 
+	Parameter V_LINES bound to: 521 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'VGA640x480' (2#1) [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA640x480.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'VGA_Stripes' [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Stripes' (3#1) [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'VGA_Stripes_Top' (4#1) [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes_Top.sv:1]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port displayOn
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[10]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[9]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[8]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[7]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[6]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[5]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[4]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[3]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[2]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[1]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port xPixel[0]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[10]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[9]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[8]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[7]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[6]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[5]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[3]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[2]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[1]
+WARNING: [Synth 8-3331] design VGA_Stripes has unconnected port yPixel[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2670.062 ; gain = 284.023
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2687.910 ; gain = 301.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2687.910 ; gain = 301.871
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2687.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[9]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[10]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[11]'. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/_SamData/Vivado2022-/Codes/VGA/VGA.srcs/constrs_1/imports/VGA/Nexys4DDR_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2768.723 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:12 . Memory (MB): peak = 3004.273 ; gain = 618.234
+13 Infos, 34 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3004.273 ; gain = 882.855
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292710259A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 13 23:30:09 2022...

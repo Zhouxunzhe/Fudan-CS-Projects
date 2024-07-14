@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/_SamData/Vivado2022/Codes/VGA/VGA.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sim_1/new/VGA_Stripes_Sim.sv,1644888279,systemVerilog,,,,VGA_Stripes_Sim,,,,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA640x480.sv,1644746389,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv,,VGA640x480,,,,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv,1644745801,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv,,VGA_Stripes,,,,,,,,
+C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv,1642599644,systemVerilog,,C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sim_1/new/VGA_Stripes_Sim.sv,,clkDiv,,,,,,,,

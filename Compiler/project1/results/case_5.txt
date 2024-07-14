@@ -1,0 +1,99 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         I
+2    10   delimiter          ,
+2    11   identifier         J
+2    13   delimiter          :
+2    15   identifier         INTEGER
+2    23   operator           :=
+2    26   integer            0
+2    27   delimiter          ;
+3    1    reserved keyword   BEGIN
+4    2    reserved keyword   WRITE
+4    7    delimiter          (
+4    8    string             "Ascending loop:"
+4    25   delimiter          )
+4    26   delimiter          ;
+5    2    reserved keyword   FOR
+5    6    identifier         I
+5    8    operator           :=
+5    11   integer            1
+5    13   reserved keyword   TO
+5    16   integer            5
+5    18   reserved keyword   DO
+6    4    reserved keyword   WRITE
+6    9    delimiter          (
+6    10   string             "I = "
+6    16   delimiter          ,
+6    18   identifier         I
+6    19   delimiter          )
+6    20   delimiter          ;
+7    9    reserved keyword   END
+7    12   delimiter          ;
+8    2    reserved keyword   WRITE
+8    7    delimiter          (
+8    8    string             "Descending loop:"
+8    26   delimiter          )
+8    27   delimiter          ;
+9    2    reserved keyword   FOR
+9    6    identifier         I
+9    8    operator           :=
+9    11   integer            5
+9    13   reserved keyword   TO
+9    16   integer            1
+9    18   reserved keyword   BY
+9    21   operator           -
+9    22   integer            1
+9    24   reserved keyword   DO
+10   4    reserved keyword   WRITE
+10   9    delimiter          (
+10   10   string             "I = "
+10   16   delimiter          ,
+10   18   identifier         I
+10   19   delimiter          )
+10   20   delimiter          ;
+11   9    reserved keyword   END
+11   12   delimiter          ;
+12   2    reserved keyword   WRITE
+12   7    delimiter          (
+12   8    string             "Double loop:"
+12   22   delimiter          )
+12   23   delimiter          ;
+13   2    reserved keyword   FOR
+13   6    identifier         I
+13   8    operator           :=
+13   11   integer            1
+13   13   reserved keyword   TO
+13   16   integer            5
+13   18   reserved keyword   DO
+14   6    reserved keyword   FOR
+14   10   identifier         J
+14   12   operator           :=
+14   15   identifier         I
+14   17   reserved keyword   TO
+14   20   identifier         I
+14   21   operator           +
+14   22   integer            10
+14   25   reserved keyword   BY
+14   28   integer            2
+14   30   reserved keyword   DO
+15   8    reserved keyword   WRITE
+15   13   delimiter          (
+15   14   string             "I,J = "
+15   22   delimiter          ,
+15   24   identifier         I
+15   25   delimiter          ,
+15   27   string             ", "
+15   31   delimiter          ,
+15   33   identifier         J
+15   34   delimiter          )
+15   35   delimiter          ;
+16   11   reserved keyword   END
+16   14   delimiter          ;
+17   9    reserved keyword   END
+17   12   delimiter          ;
+18   1    reserved keyword   END
+18   4    delimiter          ;
+number of tokens is: 97

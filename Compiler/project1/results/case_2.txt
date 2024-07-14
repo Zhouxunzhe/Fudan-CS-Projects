@@ -1,0 +1,90 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         A
+2    10   delimiter          ,
+2    12   identifier         B
+2    14   delimiter          :
+2    16   identifier         REAL
+2    21   operator           :=
+2    24   real               0.0
+2    27   delimiter          ;
+3    5    identifier         C
+3    7    delimiter          :
+3    9    identifier         REAL
+3    14   operator           :=
+3    17   real               0.0
+3    20   delimiter          ;
+4    1    reserved keyword   BEGIN
+5    5    reserved keyword   WRITE
+5    11   delimiter          (
+5    12   string             "ENTER TWO REALS:"
+5    30   delimiter          )
+5    31   delimiter          ;
+6    5    reserved keyword   READ
+6    10   delimiter          (
+6    11   identifier         A
+6    12   delimiter          ,
+6    14   identifier         B
+6    15   delimiter          )
+6    16   delimiter          ;
+7    5    identifier         C
+7    7    operator           :=
+7    10   real               8.0
+7    13   delimiter          ;
+8    5    reserved keyword   WRITE
+8    11   delimiter          (
+8    12   string             "A="
+8    16   delimiter          ,
+8    18   identifier         A
+8    19   delimiter          ,
+8    21   string             ", B="
+8    27   delimiter          ,
+8    29   identifier         B
+8    30   delimiter          ,
+8    32   string             ", C="
+8    38   delimiter          ,
+8    40   identifier         C
+8    41   delimiter          )
+8    42   delimiter          ;
+9    5    identifier         C
+9    7    operator           :=
+9    10   identifier         A
+9    12   operator           -
+9    14   delimiter          (
+9    15   operator           -
+9    16   identifier         B
+9    17   delimiter          )
+9    19   operator           +
+9    21   identifier         C
+9    22   delimiter          ;
+10   5    identifier         C
+10   7    operator           :=
+10   10   identifier         C
+10   12   operator           +
+10   14   identifier         A
+10   16   operator           *
+10   18   delimiter          (
+10   19   integer            3
+10   21   operator           +
+10   23   integer            5
+10   25   operator           *
+10   27   integer            2
+10   28   delimiter          )
+10   29   delimiter          ;
+11   5    reserved keyword   WRITE
+11   11   delimiter          (
+11   13   operator           -
+11   14   identifier         C
+11   16   operator           /
+11   17   delimiter          (
+11   18   identifier         A
+11   20   operator           +
+11   22   integer            1
+11   23   delimiter          )
+11   24   delimiter          )
+11   25   delimiter          ;
+12   1    reserved keyword   END
+12   4    delimiter          ;
+number of tokens is: 88

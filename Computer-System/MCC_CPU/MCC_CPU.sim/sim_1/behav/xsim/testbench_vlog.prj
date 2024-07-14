@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/alu.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/aludec.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/controller.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/datapath.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/flopr.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/maindec.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/mux2.sv" \
+"../../../../MCC_CPU.srcs/sources_1/new/mux4.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/regfile.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/signext.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/sl2.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/mips.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/top.sv" \
+"../../../../MCC_CPU.srcs/sources_1/new/flopenr.sv" \
+"../../../../MCC_CPU.srcs/sources_1/new/idmem.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/new/zeroext.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/IO.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/Vivado_works/First_Term/x7seg_new/x7seg_new.srcs/sources_1/new/Hex7Seg.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/DataMemoryDecoder.sv" \
+"../../../../MCC_CPU.srcs/sources_1/imports/Vivado_works/First_Term/x7seg_new/x7seg_new.srcs/sources_1/new/x7seg.sv" \
+"../../../../MCC_CPU.srcs/sources_1/new/topext.sv" \
+"../../../../MCC_CPU.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

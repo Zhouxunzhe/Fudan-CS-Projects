@@ -1,0 +1,2 @@
+import kNN
+kNN.classify()

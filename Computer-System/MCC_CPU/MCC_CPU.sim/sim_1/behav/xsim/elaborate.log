@@ -1,0 +1,39 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 1651066e53f045d88b06c2c0c04e7344 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbenchIO_behav xil_defaultlib.testbenchIO xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 32 for port 'a' [C:/Vivado_works/Second_Term/MCC_CPU/MCC_CPU.srcs/sources_1/imports/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/DataMemoryDecoder.sv:42]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Vivado_works/Second_Term/MCC_CPU/MCC_CPU.srcs/sources_1/imports/new/controller.sv" Line 1. Module controller doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_works/Second_Term/MCC_CPU/MCC_CPU.srcs/sources_1/imports/new/aludec.sv" Line 1. Module aludec doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_works/Second_Term/MCC_CPU/MCC_CPU.srcs/sources_1/imports/new/datapath.sv" Line 1. Module datapath doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Vivado_works/Second_Term/MCC_CPU/MCC_CPU.srcs/sources_1/imports/new/alu.sv" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.flopenr(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=32)
+Compiling module xil_defaultlib.maindec
+Compiling module xil_defaultlib.aludec
+Compiling module xil_defaultlib.controller
+Compiling module xil_defaultlib.flopr(WIDTH=32)
+Compiling module xil_defaultlib.mux2(WIDTH=5)
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.mux4(WIDTH=32)
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.zeroext
+Compiling module xil_defaultlib.sl2
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.datapath
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.idmem
+Compiling module xil_defaultlib.IO
+Compiling module xil_defaultlib.Hex7Seg
+Compiling module xil_defaultlib.x7seg
+Compiling module xil_defaultlib.DataMemoryDecoder
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.testbenchIO
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbenchIO_behav

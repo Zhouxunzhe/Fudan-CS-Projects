@@ -1,0 +1,15 @@
+
+# mapreduce实现wordcount
+# 每次-get /output时需要将Windows本地的output文件夹删除
+
+hadoop fs -rm -r /output
+
+hadoop jar C:/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar -file C:/Users/ZhouXunZhe/Desktop/WordCount/mapper.py -mapper "python C:/Users/ZhouXunZhe/Desktop/WordCount/mapper.py" -file C:/Users/ZhouXunZhe/Desktop/WordCount/reducer.py -reducer "python C:/Users/ZhouXunZhe/Desktop/WordCount/reducer.py" -input /input -output /output
+
+hadoop fs -get /output C:/Users/ZhouXunZhe/Desktop/WordCount/output
+
+
+
+# demo中pi的计算样例
+
+hadoop jar C:/hadoop-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar pi 3 3

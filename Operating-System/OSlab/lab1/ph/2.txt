@@ -1,0 +1,51 @@
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.192 seconds, 45617 puts/second
+0: 16321 keys missing
+1: 16321 keys missing
+200000 gets, 5.552 seconds, 36024 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.103 seconds, 47554 puts/second
+0: 16467 keys missing
+1: 16467 keys missing
+200000 gets, 5.027 seconds, 39782 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.140 seconds, 46721 puts/second
+1: 16034 keys missing
+0: 16034 keys missing
+200000 gets, 5.140 seconds, 38913 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.379 seconds, 42033 puts/second
+0: 16747 keys missing
+1: 16747 keys missing
+200000 gets, 6.125 seconds, 32653 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.202 seconds, 45407 puts/second
+0: 16233 keys missing
+1: 16233 keys missing
+200000 gets, 4.942 seconds, 40471 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.216 seconds, 45128 puts/second
+1: 16549 keys missing
+0: 16549 keys missing
+200000 gets, 5.385 seconds, 37141 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.213 seconds, 45190 puts/second
+1: 16548 keys missing
+0: 16548 keys missing
+200000 gets, 5.493 seconds, 36410 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.173 seconds, 46021 puts/second
+1: 16423 keys missing
+0: 16423 keys missing
+200000 gets, 5.171 seconds, 38677 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.428 seconds, 41190 puts/second
+0: 16508 keys missing
+1: 16508 keys missing
+200000 gets, 5.894 seconds, 33932 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 2.356 seconds, 42447 puts/second
+0: 16528 keys missing
+1: 16528 keys missing
+200000 gets, 6.300 seconds, 31744 gets/second
+

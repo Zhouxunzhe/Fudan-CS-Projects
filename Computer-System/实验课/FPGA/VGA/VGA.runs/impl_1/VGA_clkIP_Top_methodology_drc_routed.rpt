@@ -1,0 +1,45 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Mar 31 19:31:26 2022
+| Host         : DESKTOP-6DMCJ9K running 64-bit major release  (build 9200)
+| Command      : report_methodology -file VGA_clkIP_Top_methodology_drc_routed.rpt -pb VGA_clkIP_Top_methodology_drc_routed.pb -rpx VGA_clkIP_Top_methodology_drc_routed.rpx
+| Design       : VGA_clkIP_Top
+| Device       : xc7a100tcsg324-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++----------+------------------+------------------------------------------------+------------+
+| Rule     | Severity         | Description                                    | Violations |
++----------+------------------+------------------------------------------------+------------+
+| TIMING-6 | Critical Warning | No common primary clock between related clocks | 2          |
++----------+------------------+------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_Clk25MHz and clk_out1_Clk25MHz_1 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_Clk25MHz] -to [get_clocks clk_out1_Clk25MHz_1]
+Related violations: <none>
+
+TIMING-6#2 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_Clk25MHz_1 and clk_out1_Clk25MHz are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_Clk25MHz_1] -to [get_clocks clk_out1_Clk25MHz]
+Related violations: <none>
+
+

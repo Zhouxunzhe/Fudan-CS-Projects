@@ -1,0 +1,108 @@
+{% extends "normal_base.html" %}
+
+{% block title %}My Inspections{% endblock %}
+
+{% block myinspections_active %}active{% endblock %}
+
+{% block content %}
+<table class="table table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">STUDENT_ID</th>
+      <th scope="col">INSPECTION_ID</th>
+      <th scope="col">DATE</th>
+      <th scope="col">IS_INSPECT</th>
+      <th scope="col">RESULT</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for inspection in my_inspections %}
+    <tr style="vertical-align: middle;">
+      <th scope="row">{{ loop.index1 }}</th>
+      <td>{{ inspection.sid }}</td>
+      <td>{{ inspection.iid }}</td>
+      <td>{{ inspection.inspect_date }}</td>
+      <td>{{ inspection.is_inspected }}</td>
+      <td>{{ inspection.result }}</td>
+      <td><form method="post" action="/form_update_my_inspection" id="form">
+          <input type="hidden" class="form-control" id="inspect_date" name="inspect_date" value="{{ inspection.inspect_date }}">
+          <button type="submit" class="btn btn-primary">Check</button>
+      </form>
+      </td>
+      <td><button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#delete{{ loop.index1 }}">Delete</button></td>
+    </tr>
+    <div class="modal fade" id="delete{{ loop.index1 }}" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <form method="post" action="/form_delete_my_inspection" id="form">
+            <div class="modal-header">
+              <h5 class="modal-title" id="userModalLabel">Delete?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <input type="hidden" class="form-control" id="inspect_date" name="inspect_date" value="{{ inspection.inspect_date }}">
+            <input type="hidden" class="form-control" id="is_inspected" name="is_inspected" value="{{ inspection.is_inspected }}">
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn btn-primary">Delete</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+
+{% if exists("pagination") %}
+<ul class="pagination">
+  {% if existsIn(pagination, "previous") %}
+  <li class="page-item">
+    <a class="page-link" href="/my_inspections/{{ pagination.previous }}" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% endif %}
+  {% if existsIn(pagination, "left_ellipsis") %}
+  <li class="page-item"><a class="page-link" href="/my_inspections/1">1</a></li>
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  {% endif %}
+  {% for page in pagination.pages_left %}
+  <li class="page-item"><a class="page-link" href="/my_inspections/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  <li class="page-item active" aria-current="page"><a class="page-link" href="/my_inspections/{{ pagination.current }}">{{ pagination.current }}</a></li>
+  {% for page in pagination.pages_right %}
+  <li class="page-item"><a class="page-link" href="/my_inspections/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  {% if existsIn(pagination, "right_ellipsis") %}
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  <li class="page-item"><a class="page-link" href="/my_inspections/{{ pagination.total }}">{{ pagination.total }}</a></li>
+  {% endif %}
+  {% if existsIn(pagination, "next") %}
+  <li class="page-item">
+    <a class="page-link" href="/my_inspections/{{ pagination.next }}" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
+
+
+{% endif %}
+{% endblock %}

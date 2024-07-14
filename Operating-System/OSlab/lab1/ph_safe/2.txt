@@ -1,0 +1,51 @@
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 6.086 seconds, 16430 puts/second
+1: 0 keys missing
+0: 0 keys missing
+200000 gets, 5.399 seconds, 37041 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 7.742 seconds, 12917 puts/second
+1: 0 keys missing
+0: 0 keys missing
+200000 gets, 5.452 seconds, 36683 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 6.141 seconds, 16285 puts/second
+1: 0 keys missing
+0: 0 keys missing
+200000 gets, 4.969 seconds, 40249 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 5.853 seconds, 17086 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 4.869 seconds, 41080 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 5.878 seconds, 17011 puts/second
+1: 0 keys missing
+0: 0 keys missing
+200000 gets, 4.795 seconds, 41714 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 6.669 seconds, 14994 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 6.001 seconds, 33327 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 6.747 seconds, 14822 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 5.152 seconds, 38821 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 5.995 seconds, 16680 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 5.267 seconds, 37969 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 6.690 seconds, 14948 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 5.150 seconds, 38832 gets/second
+zhouxunzhe@zhouxunzhe-virtual-machine:~/xv6-labs-2021$ ./ph 2
+100000 puts, 7.428 seconds, 13462 puts/second
+0: 0 keys missing
+1: 0 keys missing
+200000 gets, 5.139 seconds, 38914 gets/second
+

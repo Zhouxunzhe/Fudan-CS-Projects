@@ -1,0 +1,157 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: I
+............ <2,10> Grammar: id_comma_sm 
+.............. <2,12> Token: identifier: ANSWER
+............ <2,21> Grammar: type INTEGER
+.............. <2,21> Token: identifier: INTEGER
+............ <2,32> Grammar: expression 0
+.............. <2,32> Token: integer: 0
+...... <3,5> Grammar: declaration 
+........ <3,15> Grammar: procedure_decl_sm 
+.......... <3,15> Grammar: procedure_decl 
+............ <3,15> Token: identifier: FACTORIAL
+............ <3,24> Grammar: formal_params 
+............ <4,2> Grammar: body 
+.............. <4,2> Grammar: declaration_sm 
+................ <4,2> Grammar: declaration 
+.................. <4,6> Grammar: var_decl_sm 
+.................... <4,6> Grammar: var_decl 
+...................... <4,6> Token: identifier: J
+...................... <4,10> Grammar: type INTEGER
+........................ <4,10> Token: identifier: INTEGER
+...................... <4,21> Grammar: expression 0
+........................ <4,21> Token: integer: 0
+................ <5,2> Grammar: declaration 
+.................. <6,11> Grammar: procedure_decl_sm 
+.................... <6,11> Grammar: procedure_decl 
+...................... <6,11> Token: identifier: FACT
+...................... <6,15> Grammar: formal_params 
+...................... <6,26> Grammar: body 
+........................ <7,6> Grammar: statement_sm 
+.......................... <7,6> Grammar: statement 
+............................ <7,9> Grammar: expression JLEI
+.............................. <7,9> Grammar: expression J
+................................ <7,9> Grammar: l_value J
+.................................. <7,9> Token: identifier: J
+.............................. <7,14> Grammar: expression I
+................................ <7,14> Grammar: l_value I
+.................................. <7,14> Token: identifier: I
+............................ <7,21> Grammar: statement_sm 
+.............................. <7,21> Grammar: statement 
+................................ <7,21> Token: identifier: MULT
+................................ <7,25> Grammar: actual_params 
+.............................. <7,29> Grammar: statement 
+................................ <7,29> Grammar: l_value J
+.................................. <7,29> Token: identifier: J
+................................ <7,34> Grammar: expression JADD1
+.................................. <7,34> Grammar: expression J
+.................................... <7,34> Grammar: l_value J
+...................................... <7,34> Token: identifier: J
+.................................. <7,38> Grammar: expression 1
+.................................... <7,38> Token: integer: 1
+.............................. <7,41> Grammar: statement 
+................................ <7,41> Token: identifier: FACT
+................................ <7,45> Grammar: actual_params 
+.................... <9,4> Grammar: procedure_decl 
+...................... <9,4> Token: identifier: MULT
+...................... <9,8> Grammar: formal_params 
+...................... <10,6> Grammar: body 
+........................ <10,6> Grammar: declaration_sm 
+.......................... <10,6> Grammar: declaration 
+............................ <10,10> Grammar: var_decl_sm 
+.............................. <10,10> Grammar: var_decl 
+................................ <10,10> Token: identifier: I
+................................ <10,14> Grammar: type INTEGER
+.................................. <10,14> Token: identifier: INTEGER
+................................ <10,25> Grammar: expression 0
+.................................. <10,25> Token: integer: 0
+........................ <12,6> Grammar: statement_sm 
+.......................... <12,6> Grammar: statement 
+............................ <12,6> Grammar: l_value I
+.............................. <12,6> Token: identifier: I
+............................ <12,11> Grammar: expression ANSWER
+.............................. <12,11> Grammar: l_value ANSWER
+................................ <12,11> Token: identifier: ANSWER
+.......................... <13,13> Grammar: statement 
+............................ <13,13> Grammar: l_value I
+.............................. <13,13> Token: identifier: I
+............................ <13,18> Grammar: expression IMULJ
+.............................. <13,18> Grammar: expression I
+................................ <13,18> Grammar: l_value I
+.................................. <13,18> Token: identifier: I
+.............................. <13,22> Grammar: expression J
+................................ <13,22> Grammar: l_value J
+.................................. <13,22> Token: identifier: J
+.......................... <14,13> Grammar: statement 
+............................ <14,13> Grammar: l_value ANSWER
+.............................. <14,13> Token: identifier: ANSWER
+............................ <14,23> Grammar: expression I
+.............................. <14,23> Grammar: l_value I
+................................ <14,23> Token: identifier: I
+.............. <17,2> Grammar: statement_sm 
+................ <17,2> Grammar: statement 
+.................. <17,2> Grammar: l_value ANSWER
+.................... <17,2> Token: identifier: ANSWER
+.................. <17,12> Grammar: expression 1
+.................... <17,12> Token: integer: 1
+................ <18,2> Grammar: statement 
+.................. <18,2> Grammar: l_value J
+.................... <18,2> Token: identifier: J
+.................. <18,7> Grammar: expression 1
+.................... <18,7> Token: integer: 1
+................ <19,2> Grammar: statement 
+.................. <19,2> Token: identifier: FACT
+.................. <19,6> Grammar: actual_params 
+.... <22,5> Grammar: statement_sm 
+...... <22,5> Grammar: statement 
+........ <22,11> Grammar: write_params 
+.......... <22,12> Grammar: write_expr 
+............ <22,12> Token: string: "The first 5 factorials are (in ascending order):"
+...... <23,5> Grammar: statement 
+........ <23,5> Grammar: l_value I
+.......... <23,5> Token: identifier: I
+........ <23,10> Grammar: expression 1
+.......... <23,10> Token: integer: 1
+...... <24,5> Grammar: statement 
+........ <25,2> Grammar: statement_sm 
+.......... <25,2> Grammar: statement 
+............ <25,5> Grammar: expression IGT5
+.............. <25,5> Grammar: expression I
+................ <25,5> Grammar: l_value I
+.................. <25,5> Token: identifier: I
+.............. <25,9> Grammar: expression 5
+................ <25,9> Token: integer: 5
+............ <25,16> Grammar: statement_sm 
+.............. <25,16> Grammar: statement 
+.......... <26,9> Grammar: statement 
+............ <26,9> Token: identifier: FACTORIAL
+............ <26,18> Grammar: actual_params 
+.......... <27,9> Grammar: statement 
+............ <27,14> Grammar: write_params 
+.............. <27,15> Grammar: write_expr 
+................ <27,15> Token: string: "FACTORIAL("
+.............. <27,27> Grammar: write_expr_comma_sm 
+................ <27,29> Grammar: write_expr 
+.................. <27,29> Grammar: expression I
+.................... <27,29> Grammar: l_value I
+...................... <27,29> Token: identifier: I
+................ <27,32> Grammar: write_expr 
+.................. <27,32> Token: string: ") = "
+................ <27,40> Grammar: write_expr 
+.................. <27,40> Grammar: expression ANSWER
+.................... <27,40> Grammar: l_value ANSWER
+...................... <27,40> Token: identifier: ANSWER
+.......... <28,2> Grammar: statement 
+............ <28,2> Grammar: l_value I
+.............. <28,2> Token: identifier: I
+............ <28,7> Grammar: expression IADD1
+.............. <28,7> Grammar: expression I
+................ <28,7> Grammar: l_value I
+.................. <28,7> Token: identifier: I
+.............. <28,11> Grammar: expression 1
+................ <28,11> Token: integer: 1

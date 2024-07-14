@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1644369409">
+  <File Type="PA-TCL" Name="PWM_LED_Top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="PWM_LED_Top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="PWM_LED_Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="PWM_LED_Top.vds"/>
+  <File Type="RDS-UTIL" Name="PWM_LED_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="PWM_LED_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="PWM_LED_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="PWM_LED_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="PWM_LED_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/PWM.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PWM_LED_Top.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="PWM_LED_Top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VGA/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VGA/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1493685362"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

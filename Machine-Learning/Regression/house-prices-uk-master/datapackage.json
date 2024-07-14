@@ -1,0 +1,86 @@
+{
+  "name": "house-prices-uk",
+  "title": "House Prices in the UK since 1953",
+  "sources": [
+    {
+      "name": "Nationwide",
+      "path": "http://www.nationwide.co.uk/hpi/historical.htm",
+      "title": "Nationwide"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Rufus Pollock",
+      "path": "http://rufuspollock.org/",
+      "role": "maintainer"
+    }
+  ],
+  "resources": [
+    {
+      "path": "data/data.csv",
+      "schema": {
+        "fields": [
+          {
+            "type": "date",
+            "name": "Date",
+            "format": "any"
+          },
+          {
+            "type": "number",
+            "name": "Price (All)"
+          },
+          {
+            "type": "number",
+            "name": "Change (All)"
+          },
+          {
+            "type": "number",
+            "name": "Price (New)"
+          },
+          {
+            "type": "number",
+            "name": "Change (New)"
+          },
+          {
+            "type": "number",
+            "name": "Price (Modern)"
+          },
+          {
+            "type": "number",
+            "name": "Change (Modern)"
+          },
+          {
+            "type": "number",
+            "name": "Price (Older)"
+          },
+          {
+            "type": "number",
+            "name": "Change (Older)"
+          }
+        ]
+      },
+      "name": "data"
+    }
+  ],
+  "views": [
+    {
+      "name": "graph",
+      "title": "House Prices in the UK since 1953",
+      "specType": "simple",
+      "spec": {
+        "type": "line",
+        "group": "Date",
+        "series": [
+          "Price (All)"
+        ]
+      }
+    }
+  ]
+}

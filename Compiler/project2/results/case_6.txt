@@ -1,0 +1,75 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,15> Grammar: procedure_decl_sm 
+.......... <2,15> Grammar: procedure_decl 
+............ <2,15> Token: identifier: FOO
+............ <2,18> Grammar: formal_params 
+.............. <2,19> Grammar: fp_section 
+................ <2,19> Token: identifier: X
+................ <2,22> Grammar: type INT
+.................. <2,22> Token: identifier: INT
+.............. <2,25> Grammar: fp_section_semicolon_sm 
+................ <2,27> Grammar: fp_section 
+.................. <2,27> Token: identifier: Y
+.................. <2,30> Grammar: type REAL
+.................... <2,30> Token: identifier: REAL
+............ <2,36> Grammar: type REAL
+.............. <2,36> Token: identifier: REAL
+............ <3,7> Grammar: body 
+.............. <3,7> Grammar: declaration_sm 
+................ <3,7> Grammar: declaration 
+.................. <3,17> Grammar: procedure_decl_sm 
+.................... <3,17> Grammar: procedure_decl 
+...................... <3,17> Token: identifier: BAR
+...................... <3,20> Grammar: formal_params 
+...................... <3,31> Grammar: body 
+........................ <3,32> Grammar: statement_sm 
+.......................... <3,32> Grammar: statement 
+............................ <3,32> Grammar: l_value Y
+.............................. <3,32> Token: identifier: Y
+............................ <3,37> Grammar: expression XADD1.0
+.............................. <3,37> Grammar: expression X
+................................ <3,37> Grammar: l_value X
+.................................. <3,37> Token: identifier: X
+.............................. <3,41> Grammar: expression 1.0
+................................ <3,41> Token: real: 1.0
+.............. <5,9> Grammar: statement_sm 
+................ <5,9> Grammar: statement 
+.................. <5,9> Token: identifier: BAR
+.................. <5,12> Grammar: actual_params 
+................ <6,2> Grammar: statement 
+.................. <6,9> Grammar: expression Y
+.................... <6,9> Grammar: l_value Y
+...................... <6,9> Token: identifier: Y
+...... <8,5> Grammar: declaration 
+........ <8,9> Grammar: var_decl_sm 
+.......... <8,9> Grammar: var_decl 
+............ <8,9> Token: identifier: C
+............ <8,13> Grammar: type REAL
+.............. <8,13> Token: identifier: REAL
+............ <8,21> Grammar: expression 0
+.............. <8,21> Token: integer: 0
+.... <10,5> Grammar: statement_sm 
+...... <10,5> Grammar: statement 
+........ <10,5> Grammar: l_value C
+.......... <10,5> Token: identifier: C
+........ <10,10> Grammar: expression FOO
+.......... <10,10> Token: identifier: FOO
+.......... <10,13> Grammar: actual_params 
+............ <10,14> Grammar: expression 3
+.............. <10,14> Token: integer: 3
+............ <10,17> Grammar: expression 2.0
+.............. <10,17> Token: real: 2.0
+...... <11,5> Grammar: statement 
+........ <11,10> Grammar: write_params 
+.......... <11,11> Grammar: write_expr 
+............ <11,11> Token: string: "C = "
+.......... <11,17> Grammar: write_expr_comma_sm 
+............ <11,19> Grammar: write_expr 
+.............. <11,19> Grammar: expression C
+................ <11,19> Grammar: l_value C
+.................. <11,19> Token: identifier: C
+............ <11,22> Grammar: write_expr 
+.............. <11,22> Token: string: " (should be 4.0)"

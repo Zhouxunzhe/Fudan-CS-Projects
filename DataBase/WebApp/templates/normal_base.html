@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Xunzhe's Web - {% block title %}{% endblock %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/statics/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    
+<main>
+  {% for user in my_users %}
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">My Space</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <table>
+              <td><tr><th scope="col">ID</th><th scope="col">&emsp;&emsp;&emsp;{{ user.sid }}</th></tr></td>
+              <td><tr><th scope="col">NAME</th><th scope="col">&emsp;&emsp;&emsp;{{ user.name }}</th></tr></td>
+              <td><tr><th scope="col">MAJOR</th><th scope="col">&emsp;&emsp;&emsp;{{ user.major }}</th></tr></td>
+              <td><tr><th scope="col">PHONE</th><th scope="col">&emsp;&emsp;&emsp;{{ user.phone }}</th></tr></td>
+              <td><tr><th scope="col">BUILDING_ID</th><th scope="col">&emsp;&emsp;&emsp;{{ user.bid }}</th></tr></td>
+              <td><tr><th scope="col">SITUATION</th><th scope="col">&emsp;&emsp;&emsp;{{ user.situation }}</th></tr></td>
+              <td><tr><th scope="col">PASSWORD</th><th scope="col">
+                <div class="ms-5"><form method="post" action="/form_update_self" id="form">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Change Password">
+                </th><th><button type="submit" class="btn btn-primary">Change</button></th></tr></td>
+              </form></div>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+  <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+    <div class="container-fluid">
+      <div class="container mt-3">
+        <a class="navbar-brand" href="/"><img src="/statics/img/fudan.jpg" alt="fudan" width="160" height="50"></a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link {% block home_active %}{% endblock %}" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block search_active %}{% endblock %}" href="/search_">Users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block buildings_active %}{% endblock %}" href="/buildings">Buildings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block inspections_active %}{% endblock %}" href="/inspections">Inspections</a>
+          </li>
+        </ul>
+        {% if exists("user") %}
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-bs-toggle="dropdown" aria-expanded="false">{{ user.name }}</a>
+            <ul class="dropdown-menu dropdown-menu-muted dropdown-menu-end" aria-labelledby="dropdown07XL">
+              <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#myModal">My space</a></li>
+              <li><a class="dropdown-item" href="/my_inspections">My inspections</a></li>
+              <li><a class="dropdown-item" href="/form_logout">Logout</a></li>
+            </ul>
+          </li>
+          <div class="card" style="width:41px">
+            <img class="card-img-top" src="/statics/img/user.png" alt="Head" >
+          </div>
+        </ul>
+        {% else %}
+        <form class="d-flex" method="post" action="/form_login">
+          <input class="form-control me-2" type="text" name="sid" placeholder="Student_id" aria-label="Student_id">
+          <input class="form-control me-2" type="password" name="password" placeholder="Password" aria-label="Password">
+          <button class="btn btn-outline-success" type="submit">Login</button>
+        </form>
+        {% endif %}
+      </div>
+    </div>
+  </nav>
+
+  {% if exists("message") %}
+    {% if exists("success") %}
+      {% if success %}
+      <div class="alert alert-success" role="alert">
+        {{ message }}
+      </div>
+      {% else %}
+      <div class="alert alert-danger" role="alert">
+        {{ message }}
+      </div>
+      {% endif %}
+    {% else %}
+    <div class="alert alert-primary" role="alert">
+      {{ message }}
+    </div>
+    {% endif %}
+  {% endif %}
+
+
+
+  <div class="container py-4">
+
+    {% block content %}{% endblock %}
+
+    <footer class="pt-3 mt-4 text-muted border-top">
+      &copy; 2022 by zxz
+    </footer>
+  </div>
+</main>
+
+  <script src="/statics/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>

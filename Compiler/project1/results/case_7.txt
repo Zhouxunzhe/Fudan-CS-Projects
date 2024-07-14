@@ -1,0 +1,67 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         I
+2    11   delimiter          :
+2    13   identifier         INTEGER
+2    21   operator           :=
+2    24   integer            0
+2    25   delimiter          ;
+3    5    reserved keyword   PROCEDURE
+3    15   identifier         ADDONE
+3    21   delimiter          (
+3    22   delimiter          )
+3    24   reserved keyword   IS
+3    27   reserved keyword   BEGIN
+4    2    identifier         I
+4    4    operator           :=
+4    7    identifier         I
+4    9    operator           +
+4    11   integer            1
+4    12   delimiter          ;
+5    5    reserved keyword   END
+5    8    delimiter          ;
+6    5    reserved keyword   PROCEDURE
+6    15   identifier         PASSTHEBUCK
+6    26   delimiter          (
+6    27   delimiter          )
+6    29   reserved keyword   IS
+6    32   reserved keyword   BEGIN
+6    38   identifier         ADDONE
+6    44   delimiter          (
+6    45   delimiter          )
+6    46   delimiter          ;
+6    48   reserved keyword   END
+6    51   delimiter          ;
+7    1    reserved keyword   BEGIN
+8    5    reserved keyword   WRITE
+8    10   delimiter          (
+8    11   string             "I = "
+8    17   delimiter          ,
+8    19   identifier         I
+8    20   delimiter          ,
+8    22   string             " (SHOULD BE 0)"
+8    38   delimiter          )
+8    39   delimiter          ;
+9    5    identifier         PASSTHEBUCK
+9    16   delimiter          (
+9    17   delimiter          )
+9    18   delimiter          ;
+10   5    reserved keyword   WRITE
+10   10   delimiter          (
+10   11   string             "I = "
+10   17   delimiter          ,
+10   19   identifier         I
+10   20   delimiter          ,
+10   22   string             " (SHOULD BE 1)"
+10   38   delimiter          )
+10   39   delimiter          ;
+11   5    reserved keyword   WRITE
+11   10   delimiter          (
+11   11   string             "ALL DONE!"
+11   22   delimiter          )
+11   23   delimiter          ;
+12   1    reserved keyword   END
+12   4    delimiter          ;
+number of tokens is: 65

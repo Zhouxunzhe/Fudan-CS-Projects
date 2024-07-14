@@ -1,0 +1,9 @@
+{
+	"port": 8080,
+	"thread-num": 2,
+	"conn-num": 4,
+	"conn-str": "postgresql://postgres:Zxz59604377123@localhost:5432/pj1",
+	"static_root": "../templates/statics",
+	"template_root": "../templates",
+	"log-dir": "./log"
+}

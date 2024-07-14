@@ -1,0 +1,34 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+2    1    integer            11111111
+5    1                       an out of range integer
+8    1    real               123456789012345678901234567890.0
+11   1    string             "abcdefg"
+14   1                       an invalid string with tab in it
+17   1                       an invalid string with many tabs in it
+20   1    string             "123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345"
+23   1                       an overly long string
+26   1    string             ""
+29   1    string             "(*"
+32   1    identifier         x12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234
+35   1                       an overly long identifier
+38   1    identifier         if
+38   4    identifier         x
+38   5    operator           <
+38   6    integer            7
+38   7    identifier         then
+38   12   identifier         y
+38   13   operator           :=
+38   15   identifier         y
+38   16   operator           +
+38   17   integer            17
+41   1    real               123.
+41   5    identifier         x
+44   1                       a bad character (bell)
+46   1    identifier         xx
+47   10   identifier         yy
+50   1                       an unterminated string
+53   1                       an unterminated string
+56   1                       an unterminated string
+59   1    string             "abc(*abcabcc*)"
+74   1                       an unterminated comment
+number of tokens is: 22

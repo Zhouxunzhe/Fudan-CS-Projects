@@ -1,0 +1,227 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         I
+2    11   delimiter          :
+2    13   identifier         INTEGER
+2    21   operator           :=
+2    24   integer            0
+2    25   delimiter          ;
+3    5    reserved keyword   TYPE
+3    10   identifier         COMPLEX
+3    18   reserved keyword   IS
+3    21   reserved keyword   RECORD
+3    28   identifier         R
+3    29   delimiter          :
+3    31   identifier         REAL
+3    35   delimiter          ;
+3    37   identifier         I
+3    39   delimiter          :
+3    41   identifier         REAL
+3    45   delimiter          ;
+3    47   reserved keyword   END
+3    50   delimiter          ;
+4    5    reserved keyword   TYPE
+4    10   identifier         PAIR
+4    15   reserved keyword   IS
+4    18   reserved keyword   RECORD
+4    25   identifier         FIRST
+4    30   delimiter          :
+4    32   identifier         COMPLEX
+4    39   delimiter          ;
+4    41   identifier         SECOND
+4    48   delimiter          :
+4    50   identifier         COMPLEX
+4    57   delimiter          ;
+4    59   reserved keyword   END
+4    62   delimiter          ;
+5    5    reserved keyword   VAR
+5    9    identifier         C
+5    11   delimiter          :
+5    13   identifier         COMPLEX
+5    21   operator           :=
+5    24   identifier         COMPLEX
+5    32   delimiter          {
+5    34   identifier         R
+5    36   operator           :=
+5    39   real               0.0
+5    42   delimiter          ;
+5    44   identifier         I
+5    46   operator           :=
+5    49   real               0.0
+5    53   delimiter          }
+5    54   delimiter          ;
+6    5    reserved keyword   VAR
+6    9    identifier         P
+6    11   delimiter          :
+6    13   identifier         PAIR
+6    18   operator           :=
+6    21   identifier         PAIR
+6    26   delimiter          {
+6    28   identifier         FIRST
+6    34   operator           :=
+6    37   identifier         COMPLEX
+6    45   delimiter          {
+6    47   identifier         R
+6    49   operator           :=
+6    52   real               0.0
+6    55   delimiter          ;
+6    57   identifier         I
+6    59   operator           :=
+6    62   real               0.0
+6    66   delimiter          }
+6    67   delimiter          ;
+7    28   identifier         SECOND
+7    35   operator           :=
+7    38   identifier         COMPLEX
+7    46   delimiter          {
+7    48   identifier         R
+7    50   operator           :=
+7    53   real               0.0
+7    56   delimiter          ;
+7    58   identifier         I
+7    60   operator           :=
+7    63   real               0.0
+7    67   delimiter          }
+7    69   delimiter          }
+7    70   delimiter          ;
+8    5    reserved keyword   PROCEDURE
+8    15   identifier         PRINT
+8    20   delimiter          (
+8    21   delimiter          )
+8    23   reserved keyword   IS
+8    26   reserved keyword   BEGIN
+9    2    reserved keyword   WRITE
+9    7    delimiter          (
+9    8    string             "    ("
+9    15   delimiter          ,
+9    17   identifier         C
+9    18   delimiter          .
+9    19   identifier         R
+9    20   delimiter          ,
+9    22   string             ", "
+9    26   delimiter          ,
+9    28   identifier         C
+9    29   delimiter          .
+9    30   identifier         I
+9    31   delimiter          ,
+9    33   string             ")"
+9    36   delimiter          )
+9    37   delimiter          ;
+10   5    reserved keyword   END
+10   8    delimiter          ;
+11   1    reserved keyword   BEGIN
+12   5    identifier         C
+12   6    delimiter          .
+12   7    identifier         R
+12   9    operator           :=
+12   12   real               1.0
+12   15   delimiter          ;
+13   5    identifier         C
+13   6    delimiter          .
+13   7    identifier         I
+13   9    operator           :=
+13   12   real               0.0
+13   15   delimiter          ;
+14   5    identifier         P
+14   6    delimiter          .
+14   7    identifier         FIRST
+14   13   operator           :=
+14   16   identifier         C
+14   17   delimiter          ;
+15   5    identifier         C
+15   6    delimiter          .
+15   7    identifier         R
+15   9    operator           :=
+15   12   real               0.0
+15   15   delimiter          ;
+16   5    identifier         C
+16   6    delimiter          .
+16   7    identifier         I
+16   9    operator           :=
+16   12   real               1.0
+16   15   delimiter          ;
+17   5    identifier         P
+17   6    delimiter          .
+17   7    identifier         SECOND
+17   14   operator           :=
+17   17   identifier         C
+17   18   delimiter          ;
+18   5    identifier         C
+18   7    operator           :=
+18   10   identifier         P
+18   11   delimiter          .
+18   12   identifier         FIRST
+18   17   delimiter          ;
+19   5    reserved keyword   WRITE
+19   11   delimiter          (
+19   12   string             "The first complex number should be (1.0, 0.0):"
+19   60   delimiter          )
+19   61   delimiter          ;
+20   5    identifier         PRINT
+20   10   delimiter          (
+20   11   delimiter          )
+20   12   delimiter          ;
+21   5    identifier         C
+21   7    operator           :=
+21   10   identifier         P
+21   11   delimiter          .
+21   12   identifier         SECOND
+21   18   delimiter          ;
+22   5    reserved keyword   WRITE
+22   11   delimiter          (
+22   12   string             "The second complex number should be (0.0, 1.0):"
+22   61   delimiter          )
+22   62   delimiter          ;
+23   5    identifier         PRINT
+23   10   delimiter          (
+23   11   delimiter          )
+23   12   delimiter          ;
+24   5    reserved keyword   IF
+24   8    identifier         P
+24   9    delimiter          .
+24   10   identifier         FIRST
+24   15   delimiter          .
+24   16   identifier         R
+24   18   operator           <>
+24   21   identifier         P
+24   22   delimiter          .
+24   23   identifier         SECOND
+24   29   delimiter          .
+24   30   identifier         R
+24   32   reserved keyword   THEN
+25   2    reserved keyword   WRITE
+25   8    delimiter          (
+25   9    string             "and these two complex numbers are not equal!"
+25   55   delimiter          )
+25   56   delimiter          ;
+26   5    reserved keyword   ELSIF
+26   11   identifier         P
+26   12   delimiter          .
+26   13   identifier         FIRST
+26   18   delimiter          .
+26   19   identifier         I
+26   21   operator           <>
+26   24   identifier         P
+26   25   delimiter          .
+26   26   identifier         SECOND
+26   32   delimiter          .
+26   33   identifier         I
+26   35   reserved keyword   THEN
+27   2    reserved keyword   WRITE
+27   8    delimiter          (
+27   9    string             "and these two complex numbers are not equal!"
+27   55   delimiter          )
+27   56   delimiter          ;
+28   5    reserved keyword   ELSE
+29   2    reserved keyword   WRITE
+29   8    delimiter          (
+29   9    string             "and these two complex numbers are equal?"
+29   51   delimiter          )
+29   52   delimiter          ;
+30   5    reserved keyword   END
+30   8    delimiter          ;
+31   1    reserved keyword   END
+31   4    delimiter          ;
+number of tokens is: 225

@@ -1,0 +1,20 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\bin\Debug\raw2coe.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\bin\Debug\raw2coe.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\bin\Debug\raw2coe.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.vbproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\raw2coe\raw2coe\obj\x86\Debug\raw2coe.AboutMe.resources
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.exe
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.xml
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.pdb
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\bin\Debug\raw2coe.exe
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\bin\Debug\raw2coe.pdb
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\bin\Debug\raw2coe.xml
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.AboutMe.resources
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.Form1.resources
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.Resources.resources
+C:\Users\Lynn\Desktop\raw2coe\raw2coe\obj\x86\Debug\raw2coe.vbproj.GenerateResource.Cache

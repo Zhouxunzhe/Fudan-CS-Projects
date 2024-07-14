@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.pl": "c",
+        "user.h": "c",
+        "proc.h": "c",
+        "cstdlib": "cpp"
+    }
+}

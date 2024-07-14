@@ -1,0 +1,125 @@
+{% extends "normal_base.html" %}
+
+{% block title %}Inspections{% endblock %}
+
+{% block inspections_active %}active{% endblock %}
+
+{% block content %}
+
+<div class="container p-5 my-5 bg-primary">
+  <table class="table table-borderless">
+    <td><tr>
+      <th scope="col">
+        <div style="color: aliceblue; font-weight: 600;font-size: 3em;">Apply For Inspection</div>
+      </th>
+      <div style="text-align: end;">
+      <th scope="col">
+          <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#userModal">
+            <div style="color: dodgerblue; font-weight:500; font-size: 2em;">Apply</div>
+          </button>
+      </th>
+    </div>
+    </tr></td>
+</table>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="userModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form method="post" action="/form_apply" class="was-validated">
+        <div class="modal-header">
+          <h5 class="modal-title" id="userModalLabel">Apply</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="iid" class="form-label">Inspection id</label>
+            <input type="text" class="form-control" id="iid" name="iid"required placeholder="Inspection id">
+            <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+          </div>
+          <div class="mb-3">
+            <label for="inspect_date" class="form-label">Inspect date</label>
+            <input type="text" class="form-control" id="inspect_date" name="inspect_date"required placeholder="xxxx/xx/xx">
+            <div class="valid-feedback">valid</div>
+              <div class="invalid-feedback">Please fill this blank</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="submit" class="btn btn-primary">Apply</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<table class="table table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">DATE</th>
+      <th scope="col">INSPECTION_ID</th>
+      <th scope="col">STUDENT</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for inspection in inspections %}
+    <tr style="vertical-align: middle;">
+      <th scope="row">{{ loop.index1 }}</th>
+      <td>{{ inspection.inspect_date }}</td>
+      <td>{{ inspection.iid }}</td>
+      <td>{{ inspection.count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if exists("pagination") %}
+<ul class="pagination">
+  {% if existsIn(pagination, "previous") %}
+  <li class="page-item">
+    <a class="page-link" href="/inspections/{{ pagination.previous }}" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% endif %}
+  {% if existsIn(pagination, "left_ellipsis") %}
+  <li class="page-item"><a class="page-link" href="/inspections/1">1</a></li>
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  {% endif %}
+  {% for page in pagination.pages_left %}
+  <li class="page-item"><a class="page-link" href="/inspections/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  <li class="page-item active" aria-current="page"><a class="page-link" href="/inspections/{{ pagination.current }}">{{ pagination.current }}</a></li>
+  {% for page in pagination.pages_right %}
+  <li class="page-item"><a class="page-link" href="/inspections/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  {% if existsIn(pagination, "right_ellipsis") %}
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  <li class="page-item"><a class="page-link" href="/inspections/{{ pagination.total }}">{{ pagination.total }}</a></li>
+  {% endif %}
+  {% if existsIn(pagination, "next") %}
+  <li class="page-item">
+    <a class="page-link" href="/inspections/{{ pagination.next }}" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+{% endblock %}

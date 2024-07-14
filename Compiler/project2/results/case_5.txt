@@ -1,0 +1,97 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: I
+............ <2,10> Grammar: id_comma_sm 
+.............. <2,11> Token: identifier: J
+............ <2,15> Grammar: type INTEGER
+.............. <2,15> Token: identifier: INTEGER
+............ <2,26> Grammar: expression 0
+.............. <2,26> Token: integer: 0
+.... <4,2> Grammar: statement_sm 
+...... <4,2> Grammar: statement 
+........ <4,7> Grammar: write_params 
+.......... <4,8> Grammar: write_expr 
+............ <4,8> Token: string: "Ascending loop:"
+...... <5,2> Grammar: statement 
+........ <5,6> Token: identifier: I
+........ <5,11> Grammar: expression 1
+.......... <5,11> Token: integer: 1
+........ <5,16> Grammar: expression 5
+.......... <5,16> Token: integer: 5
+........ <6,4> Grammar: statement_sm 
+.......... <6,4> Grammar: statement 
+............ <6,9> Grammar: write_params 
+.............. <6,10> Grammar: write_expr 
+................ <6,10> Token: string: "I = "
+.............. <6,16> Grammar: write_expr_comma_sm 
+................ <6,18> Grammar: write_expr 
+.................. <6,18> Grammar: expression I
+.................... <6,18> Grammar: l_value I
+...................... <6,18> Token: identifier: I
+...... <8,2> Grammar: statement 
+........ <8,7> Grammar: write_params 
+.......... <8,8> Grammar: write_expr 
+............ <8,8> Token: string: "Descending loop:"
+...... <9,2> Grammar: statement 
+........ <9,6> Token: identifier: I
+........ <9,11> Grammar: expression 5
+.......... <9,11> Token: integer: 5
+........ <9,16> Grammar: expression 1
+.......... <9,16> Token: integer: 1
+........ <9,21> Grammar: expression NEG1
+.......... <9,22> Grammar: expression 1
+............ <9,22> Token: integer: 1
+........ <10,4> Grammar: statement_sm 
+.......... <10,4> Grammar: statement 
+............ <10,9> Grammar: write_params 
+.............. <10,10> Grammar: write_expr 
+................ <10,10> Token: string: "I = "
+.............. <10,16> Grammar: write_expr_comma_sm 
+................ <10,18> Grammar: write_expr 
+.................. <10,18> Grammar: expression I
+.................... <10,18> Grammar: l_value I
+...................... <10,18> Token: identifier: I
+...... <12,2> Grammar: statement 
+........ <12,7> Grammar: write_params 
+.......... <12,8> Grammar: write_expr 
+............ <12,8> Token: string: "Double loop:"
+...... <13,2> Grammar: statement 
+........ <13,6> Token: identifier: I
+........ <13,11> Grammar: expression 1
+.......... <13,11> Token: integer: 1
+........ <13,16> Grammar: expression 5
+.......... <13,16> Token: integer: 5
+........ <14,6> Grammar: statement_sm 
+.......... <14,6> Grammar: statement 
+............ <14,10> Token: identifier: J
+............ <14,15> Grammar: expression I
+.............. <14,15> Grammar: l_value I
+................ <14,15> Token: identifier: I
+............ <14,20> Grammar: expression IADD10
+.............. <14,20> Grammar: expression I
+................ <14,20> Grammar: l_value I
+.................. <14,20> Token: identifier: I
+.............. <14,22> Grammar: expression 10
+................ <14,22> Token: integer: 10
+............ <14,28> Grammar: expression 2
+.............. <14,28> Token: integer: 2
+............ <15,8> Grammar: statement_sm 
+.............. <15,8> Grammar: statement 
+................ <15,13> Grammar: write_params 
+.................. <15,14> Grammar: write_expr 
+.................... <15,14> Token: string: "I,J = "
+.................. <15,22> Grammar: write_expr_comma_sm 
+.................... <15,24> Grammar: write_expr 
+...................... <15,24> Grammar: expression I
+........................ <15,24> Grammar: l_value I
+.......................... <15,24> Token: identifier: I
+.................... <15,27> Grammar: write_expr 
+...................... <15,27> Token: string: ", "
+.................... <15,33> Grammar: write_expr 
+...................... <15,33> Grammar: expression J
+........................ <15,33> Grammar: l_value J
+.......................... <15,33> Token: identifier: J

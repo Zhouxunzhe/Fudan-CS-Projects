@@ -1,0 +1,70 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   PROCEDURE
+2    15   identifier         FOO
+2    18   delimiter          (
+2    19   identifier         X
+2    20   delimiter          :
+2    22   identifier         INT
+2    25   delimiter          ;
+2    27   identifier         Y
+2    28   delimiter          :
+2    30   identifier         REAL
+2    34   delimiter          )
+2    35   delimiter          :
+2    36   identifier         REAL
+2    41   reserved keyword   IS
+3    7    reserved keyword   PROCEDURE
+3    17   identifier         BAR
+3    20   delimiter          (
+3    21   delimiter          )
+3    23   reserved keyword   IS
+3    26   reserved keyword   BEGIN
+3    32   identifier         Y
+3    34   operator           :=
+3    37   identifier         X
+3    39   operator           +
+3    41   real               1.0
+3    44   delimiter          ;
+3    46   reserved keyword   END
+3    49   delimiter          ;
+4    7    reserved keyword   BEGIN
+5    9    identifier         BAR
+5    12   delimiter          (
+5    13   delimiter          )
+5    14   delimiter          ;
+6    2    reserved keyword   RETURN
+6    9    identifier         Y
+6    10   delimiter          ;
+7    7    reserved keyword   END
+7    10   delimiter          ;
+8    5    reserved keyword   VAR
+8    9    identifier         C
+8    11   delimiter          :
+8    13   identifier         REAL
+8    18   operator           :=
+8    21   integer            0
+8    22   delimiter          ;
+9    1    reserved keyword   BEGIN
+10   5    identifier         C
+10   7    operator           :=
+10   10   identifier         FOO
+10   13   delimiter          (
+10   14   integer            3
+10   15   delimiter          ,
+10   17   real               2.0
+10   20   delimiter          )
+10   21   delimiter          ;
+11   5    reserved keyword   WRITE
+11   10   delimiter          (
+11   11   string             "C = "
+11   17   delimiter          ,
+11   19   identifier         C
+11   20   delimiter          ,
+11   22   string             " (should be 4.0)"
+11   40   delimiter          )
+11   41   delimiter          ;
+12   1    reserved keyword   END
+12   4    delimiter          ;
+number of tokens is: 68

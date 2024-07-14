@@ -1,0 +1,20 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto af822c4ceefd4483815ce76f18c57bd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot VGA_Stripes_Sim_behav xil_defaultlib.VGA_Stripes_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'xPixel' might have multiple concurrent drivers [C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sim_1/new/VGA_Stripes_Sim.sv:27]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/clkDiv.sv" Line 2. Module clkDiv doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA640x480.sv" Line 1. Module VGA640x480_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/_SamData/Vivado2022/Codes/VGA/VGA.srcs/sources_1/new/VGA_Stripes.sv" Line 1. Module VGA_Stripes doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clkDiv
+Compiling module xil_defaultlib.VGA640x480_default
+Compiling module xil_defaultlib.VGA_Stripes
+Compiling module xil_defaultlib.VGA_Stripes_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot VGA_Stripes_Sim_behav

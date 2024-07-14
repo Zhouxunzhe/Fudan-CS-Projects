@@ -1,0 +1,114 @@
+selected_stocks:  [['sh010107' '21国债⑺']
+ ['sh188902' '21利程01']
+ ['sh188878' '21诚通15']
+ ['sh188880' '21通城03']
+ ['sh188881' '21浙商G1']
+ ['sh188882' '21成建工']
+ ['sh188883' '21铁投01']
+ ['sh188884' '21光证10']
+ ['sh188885' '21北水Y2']
+ ['sh188886' '21光证11']]
+selected_etfs:  [['sh000061' '沪企债30']
+ ['sh000101' '5年信用']
+ ['sh000116' '信用100']
+ ['sh000003' 'Ｂ股指数']
+ ['sh000022' '沪公司债']
+ ['sh000689' '科创材料']
+ ['sh000683' '科创生物']
+ ['sh000693' '科创机械']
+ ['sh000697' '科大湾区']
+ ['sh000695' '科长三角']]
+selected_funds:  [['sh501000' '国金鑫新LOF']
+ ['sz167003' '鼎弘LOF']
+ ['sz161232' '国投瑞盛LOF']
+ ['sz160220' '国泰民益LOF']
+ ['sz160324' '华夏磐晟LOF']
+ ['sz160515' '安丰18定开']
+ ['sz161834' '银华鑫锐LOF']
+ ['sz162721' '广发积极FOF-LOF']
+ ['sz161727' '招商增荣LOF']
+ ['sz160615' '鹏华300LOF']]
+selected_futures:  ['T2406' 'TF2406' 'IC2406' 'IM2406' 'IF2406' 'IF2409' 'IM2409' 'IC2409'
+ 'IM2405' 'IF2405']
+selected_options:  [['ho2303P3150']
+ ['ho2303P3100']
+ ['ho2303P3050']
+ ['ho2303P2425']
+ ['ho2303P2400']
+ ['ho2303P3000']
+ ['ho2303P2950']
+ ['ho2303P2375']
+ ['ho2303P2900']
+ ['ho2303P2350']]
+selected_stocks:  [['600649' '城投控股']
+ ['600491' '龙元建设']
+ ['600037' '歌华有线']
+ ['601718' '际华集团']
+ ['601996' '丰林集团']
+ ['600716' '凤凰股份']
+ ['688199' '久日新材']
+ ['603113' '金能科技']
+ ['603776' '永安行']
+ ['603585' '苏利股份']]
+Loading data from local file: ../data/stocks/sh600649.csv
+Loading data from local file: ../data/stocks/sh600491.csv
+Loading data from local file: ../data/stocks/sh600037.csv
+Loading data from local file: ../data/stocks/sh601718.csv
+Loading data from local file: ../data/stocks/sh601996.csv
+Loading data from local file: ../data/stocks/sh600716.csv
+Loading data from local file: ../data/stocks/sh688199.csv
+Loading data from local file: ../data/stocks/sh603113.csv
+Loading data from local file: ../data/stocks/sh603776.csv
+Loading data from local file: ../data/stocks/sh603585.csv
+Local file not found. Fetching data from akshare for sh000061
+Local file not found. Fetching data from akshare for sh000101
+Local file not found. Fetching data from akshare for sh000116
+Local file not found. Fetching data from akshare for sh000003
+Local file not found. Fetching data from akshare for sh000022
+Local file not found. Fetching data from akshare for sh000689
+Local file not found. Fetching data from akshare for sh000683
+Local file not found. Fetching data from akshare for sh000693
+Local file not found. Fetching data from akshare for sh000697
+Local file not found. Fetching data from akshare for sh000695
+Local file not found. Fetching data from akshare for sh501000
+Local file not found. Fetching data from akshare for sz167003
+Local file not found. Fetching data from akshare for sz161232
+Local file not found. Fetching data from akshare for sz160220
+Local file not found. Fetching data from akshare for sz160324
+Local file not found. Fetching data from akshare for sz160515
+Local file not found. Fetching data from akshare for sz161834
+Local file not found. Fetching data from akshare for sz162721
+Local file not found. Fetching data from akshare for sz161727
+Local file not found. Fetching data from akshare for sz160615
+Loading data from local file: ../data/futures/T2406.csv
+Loading data from local file: ../data/futures/TF2406.csv
+Loading data from local file: ../data/futures/IC2406.csv
+Loading data from local file: ../data/futures/IM2406.csv
+Loading data from local file: ../data/futures/IF2406.csv
+Loading data from local file: ../data/futures/IF2409.csv
+Loading data from local file: ../data/futures/IM2409.csv
+Loading data from local file: ../data/futures/IC2409.csv
+Loading data from local file: ../data/futures/IM2405.csv
+Loading data from local file: ../data/futures/IF2405.csv
+Local file not found. Fetching data from akshare for ho2303P3150
+Local file not found. Fetching data from akshare for ho2303P3100
+Local file not found. Fetching data from akshare for ho2303P3050
+Local file not found. Fetching data from akshare for ho2303P2425
+Local file not found. Fetching data from akshare for ho2303P2400
+Local file not found. Fetching data from akshare for ho2303P3000
+Local file not found. Fetching data from akshare for ho2303P2950
+Local file not found. Fetching data from akshare for ho2303P2375
+Local file not found. Fetching data from akshare for ho2303P2900
+Local file not found. Fetching data from akshare for ho2303P2350
+Local file not found. Fetching data from akshare for sh010107
+Local file not found. Fetching data from akshare for sh188902
+Local file not found. Fetching data from akshare for sh188878
+Local file not found. Fetching data from akshare for sh188880
+Local file not found. Fetching data from akshare for sh188881
+Local file not found. Fetching data from akshare for sh188882
+Local file not found. Fetching data from akshare for sh188883
+Local file not found. Fetching data from akshare for sh188884
+Local file not found. Fetching data from akshare for sh188885
+Local file not found. Fetching data from akshare for sh188886
+策略最终回报: 192.44%
+市场最终回报: 104.07%

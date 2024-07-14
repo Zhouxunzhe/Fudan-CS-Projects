@@ -1,0 +1,107 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: A
+............ <2,10> Grammar: id_comma_sm 
+.............. <2,12> Token: identifier: B
+............ <2,16> Grammar: type REAL
+.............. <2,16> Token: identifier: REAL
+............ <2,24> Grammar: expression 0.0
+.............. <2,24> Token: real: 0.0
+.......... <3,5> Grammar: var_decl 
+............ <3,5> Token: identifier: C
+............ <3,9> Grammar: type REAL
+.............. <3,9> Token: identifier: REAL
+............ <3,17> Grammar: expression 0.0
+.............. <3,17> Token: real: 0.0
+.... <5,5> Grammar: statement_sm 
+...... <5,5> Grammar: statement 
+........ <5,11> Grammar: write_params 
+.......... <5,12> Grammar: write_expr 
+............ <5,12> Token: string: "ENTER TWO REALS:"
+...... <6,5> Grammar: statement 
+........ <6,11> Grammar: l_value A
+.......... <6,11> Token: identifier: A
+........ <6,12> Grammar: l_value_comma_sm 
+.......... <6,14> Grammar: l_value B
+............ <6,14> Token: identifier: B
+...... <7,5> Grammar: statement 
+........ <7,5> Grammar: l_value C
+.......... <7,5> Token: identifier: C
+........ <7,10> Grammar: expression 8.0
+.......... <7,10> Token: real: 8.0
+...... <8,5> Grammar: statement 
+........ <8,11> Grammar: write_params 
+.......... <8,12> Grammar: write_expr 
+............ <8,12> Token: string: "A="
+.......... <8,16> Grammar: write_expr_comma_sm 
+............ <8,18> Grammar: write_expr 
+.............. <8,18> Grammar: expression A
+................ <8,18> Grammar: l_value A
+.................. <8,18> Token: identifier: A
+............ <8,21> Grammar: write_expr 
+.............. <8,21> Token: string: ", B="
+............ <8,29> Grammar: write_expr 
+.............. <8,29> Grammar: expression B
+................ <8,29> Grammar: l_value B
+.................. <8,29> Token: identifier: B
+............ <8,32> Grammar: write_expr 
+.............. <8,32> Token: string: ", C="
+............ <8,40> Grammar: write_expr 
+.............. <8,40> Grammar: expression C
+................ <8,40> Grammar: l_value C
+.................. <8,40> Token: identifier: C
+...... <9,5> Grammar: statement 
+........ <9,5> Grammar: l_value C
+.......... <9,5> Token: identifier: C
+........ <9,10> Grammar: expression ASUB(NEGB)ADDC
+.......... <9,10> Grammar: expression ASUB(NEGB)
+............ <9,10> Grammar: expression A
+.............. <9,10> Grammar: l_value A
+................ <9,10> Token: identifier: A
+............ <9,14> Grammar: expression (NEGB)
+.............. <9,15> Grammar: expression NEGB
+................ <9,16> Grammar: expression B
+.................. <9,16> Grammar: l_value B
+.................... <9,16> Token: identifier: B
+.......... <9,21> Grammar: expression C
+............ <9,21> Grammar: l_value C
+.............. <9,21> Token: identifier: C
+...... <10,5> Grammar: statement 
+........ <10,5> Grammar: l_value C
+.......... <10,5> Token: identifier: C
+........ <10,10> Grammar: expression CADDAMUL(3ADD5MUL2)
+.......... <10,10> Grammar: expression C
+............ <10,10> Grammar: l_value C
+.............. <10,10> Token: identifier: C
+.......... <10,14> Grammar: expression AMUL(3ADD5MUL2)
+............ <10,14> Grammar: expression A
+.............. <10,14> Grammar: l_value A
+................ <10,14> Token: identifier: A
+............ <10,18> Grammar: expression (3ADD5MUL2)
+.............. <10,19> Grammar: expression 3ADD5MUL2
+................ <10,19> Grammar: expression 3
+.................. <10,19> Token: integer: 3
+................ <10,23> Grammar: expression 5MUL2
+.................. <10,23> Grammar: expression 5
+.................... <10,23> Token: integer: 5
+.................. <10,27> Grammar: expression 2
+.................... <10,27> Token: integer: 2
+...... <11,5> Grammar: statement 
+........ <11,11> Grammar: write_params 
+.......... <11,13> Grammar: write_expr 
+............ <11,13> Grammar: expression NEGCDIV(AADD1)
+.............. <11,13> Grammar: expression NEGC
+................ <11,14> Grammar: expression C
+.................. <11,14> Grammar: l_value C
+.................... <11,14> Token: identifier: C
+.............. <11,17> Grammar: expression (AADD1)
+................ <11,18> Grammar: expression AADD1
+.................. <11,18> Grammar: expression A
+.................... <11,18> Grammar: l_value A
+...................... <11,18> Token: identifier: A
+.................. <11,22> Grammar: expression 1
+.................... <11,22> Token: integer: 1

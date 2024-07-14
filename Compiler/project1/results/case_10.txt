@@ -1,0 +1,142 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         I
+2    10   delimiter          ,
+2    12   identifier         ANSWER
+2    19   delimiter          :
+2    21   identifier         INTEGER
+2    29   operator           :=
+2    32   integer            0
+2    33   delimiter          ;
+3    5    reserved keyword   PROCEDURE
+3    15   identifier         FACTORIAL
+3    24   delimiter          (
+3    25   delimiter          )
+3    27   reserved keyword   IS
+4    2    reserved keyword   VAR
+4    6    identifier         J
+4    8    delimiter          :
+4    10   identifier         INTEGER
+4    18   operator           :=
+4    21   integer            0
+4    22   delimiter          ;
+5    2    reserved keyword   PROCEDURE
+6    11   identifier         FACT
+6    15   delimiter          (
+6    16   delimiter          )
+6    18   reserved keyword   IS
+6    21   reserved keyword   BEGIN
+7    6    reserved keyword   IF
+7    9    identifier         J
+7    11   operator           <=
+7    14   identifier         I
+7    16   reserved keyword   THEN
+7    21   identifier         MULT
+7    25   delimiter          (
+7    26   delimiter          )
+7    27   delimiter          ;
+7    29   identifier         J
+7    31   operator           :=
+7    34   identifier         J
+7    36   operator           +
+7    38   integer            1
+7    39   delimiter          ;
+7    41   identifier         FACT
+7    45   delimiter          (
+7    46   delimiter          )
+7    47   delimiter          ;
+7    49   reserved keyword   END
+7    52   delimiter          ;
+8    4    reserved keyword   END
+8    7    delimiter          ;
+9    4    identifier         MULT
+9    8    delimiter          (
+9    9    delimiter          )
+9    11   reserved keyword   IS
+10   6    reserved keyword   VAR
+10   10   identifier         I
+10   12   delimiter          :
+10   14   identifier         INTEGER
+10   22   operator           :=
+10   25   integer            0
+10   26   delimiter          ;
+11   4    reserved keyword   BEGIN
+12   6    identifier         I
+12   8    operator           :=
+12   11   identifier         ANSWER
+12   17   delimiter          ;
+13   13   identifier         I
+13   15   operator           :=
+13   18   identifier         I
+13   20   operator           *
+13   22   identifier         J
+13   23   delimiter          ;
+14   13   identifier         ANSWER
+14   20   operator           :=
+14   23   identifier         I
+14   24   delimiter          ;
+15   4    reserved keyword   END
+15   7    delimiter          ;
+16   5    reserved keyword   BEGIN
+17   2    identifier         ANSWER
+17   9    operator           :=
+17   12   integer            1
+17   13   delimiter          ;
+18   2    identifier         J
+18   4    operator           :=
+18   7    integer            1
+18   8    delimiter          ;
+19   2    identifier         FACT
+19   6    delimiter          (
+19   7    delimiter          )
+19   8    delimiter          ;
+20   5    reserved keyword   END
+20   8    delimiter          ;
+21   1    reserved keyword   BEGIN
+22   5    reserved keyword   WRITE
+22   11   delimiter          (
+22   12   string             "The first 5 factorials are (in ascending order):"
+22   62   delimiter          )
+22   63   delimiter          ;
+23   5    identifier         I
+23   7    operator           :=
+23   10   integer            1
+23   11   delimiter          ;
+24   5    reserved keyword   LOOP
+25   2    reserved keyword   IF
+25   5    identifier         I
+25   7    operator           >
+25   9    integer            5
+25   11   reserved keyword   THEN
+25   16   reserved keyword   EXIT
+25   20   delimiter          ;
+25   22   reserved keyword   END
+25   25   delimiter          ;
+26   9    identifier         FACTORIAL
+26   18   delimiter          (
+26   19   delimiter          )
+26   20   delimiter          ;
+27   9    reserved keyword   WRITE
+27   14   delimiter          (
+27   15   string             "FACTORIAL("
+27   27   delimiter          ,
+27   29   identifier         I
+27   30   delimiter          ,
+27   32   string             ") = "
+27   38   delimiter          ,
+27   40   identifier         ANSWER
+27   46   delimiter          )
+27   47   delimiter          ;
+28   2    identifier         I
+28   4    operator           :=
+28   7    identifier         I
+28   9    operator           +
+28   11   integer            1
+28   12   delimiter          ;
+29   5    reserved keyword   END
+29   8    delimiter          ;
+30   1    reserved keyword   END
+30   4    delimiter          ;
+number of tokens is: 140

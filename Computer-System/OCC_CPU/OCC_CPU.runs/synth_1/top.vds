@@ -1,0 +1,455 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Mar 23 00:28:59 2022
+# Process ID: 23544
+# Current directory: C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.runs/synth_1/top.vds
+# Journal file: C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13132 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 786.531 ; gain = 235.934
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'mips' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mips.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/maindec.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (1#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/maindec.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'aludec' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/aludec.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'aludec' (2#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/aludec.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (3#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/datapath.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/flopr.sv:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (4#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/flopr.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/adder.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (5#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/adder.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sl2' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/sl2.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'sl2' (6#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/sl2.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mux2.sv:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (7#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mux2.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/regfile.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/regfile.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mux2.sv:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (8#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mux2.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'signext' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/signext.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (9#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/signext.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'zeroext' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/zeroext.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'zeroext' (10#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/zeroext.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/alu.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (11#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/alu.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (12#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/datapath.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (13#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/mips.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'imem' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/imem.sv:1]
+INFO: [Synth 8-3876] $readmem data file 'memfile4.dat' is read successfully [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/imem.sv:7]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (14#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/imem.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'DataMemoryDecoder' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/DataMemoryDecoder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/dmem.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (15#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/dmem.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'IO' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/IO.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'IO' (16#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/IO.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'x7seg' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/imports/new/x7seg.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/imports/new/x7seg.sv:50]
+INFO: [Synth 8-6157] synthesizing module 'Hex7Seg' [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/imports/new/Hex7Seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Hex7Seg' (17#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/imports/new/Hex7Seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'x7seg' (18#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/imports/new/x7seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemoryDecoder' (19#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/DataMemoryDecoder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (20#1) [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/sources_1/new/top.sv:3]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[0]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[31]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[30]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[29]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[28]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[27]
+WARNING: [Synth 8-3331] design datapath has unconnected port instr[26]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 859.301 ; gain = 308.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 859.301 ; gain = 308.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 859.301 ; gain = 308.703
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 859.301 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/constrs_1/imports/OCC_CPU/Nexys4DDR_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'DP'. [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/constrs_1/imports/OCC_CPU/Nexys4DDR_Master.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/constrs_1/imports/OCC_CPU/Nexys4DDR_Master.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/constrs_1/imports/OCC_CPU/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.srcs/constrs_1/imports/OCC_CPU/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 953.949 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 953.949 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "RAM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 8     
+	  14 Input     32 Bit        Muxes := 1     
+	  10 Input     12 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module maindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input     12 Bit        Muxes := 1     
+Module aludec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      3 Bit        Muxes := 1     
+Module flopr 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 1     
+Module IO 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module x7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------------+---------------+----------------+
+|Module Name | RTL Object       | Depth x Width | Implemented As | 
++------------+------------------+---------------+----------------+
+|Hex7Seg     | a2g              | 32x7          | LUT            | 
+|top         | dmd/x7seg/s7/a2g | 32x7          | LUT            | 
++------------+------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+-------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------+-----------+----------------------+----------------+
+|top         | dmd/dmem/RAM_reg  | Implied   | 64 x 32              | RAM64X1S x 32	 | 
+|top         | mips/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 12	   | 
++------------+-------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 953.949 ; gain = 403.352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 997.242 ; gain = 446.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+-------------------+-----------+----------------------+----------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives     | 
++------------+-------------------+-----------+----------------------+----------------+
+|top         | dmd/dmem/RAM_reg  | Implied   | 64 x 32              | RAM64X1S x 32	 | 
+|top         | mips/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 12	   | 
++------------+-------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 997.242 ; gain = 446.645
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    29|
+|3     |LUT1     |     3|
+|4     |LUT2     |     1|
+|5     |LUT3     |    18|
+|6     |LUT4     |    58|
+|7     |LUT5     |   173|
+|8     |LUT6     |   119|
+|9     |MUXF7    |     4|
+|10    |RAM32M   |    12|
+|11    |RAM64X1S |    32|
+|12    |FDCE     |    28|
+|13    |FDRE     |    42|
+|14    |IBUF     |    20|
+|15    |OBUF     |    15|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+------------------+------+
+|      |Instance     |Module            |Cells |
++------+-------------+------------------+------+
+|1     |top          |                  |   555|
+|2     |  dmd        |DataMemoryDecoder |   134|
+|3     |    dmem     |dmem              |    32|
+|4     |    io       |IO                |    52|
+|5     |    x7seg    |x7seg             |    50|
+|6     |  mips       |mips              |   385|
+|7     |    dp       |datapath          |   385|
+|8     |      alu    |alu               |    12|
+|9     |      pcadd1 |adder             |     2|
+|10    |      pcadd2 |adder_0           |     2|
+|11    |      pcreg  |flopr             |   357|
+|12    |      rf     |regfile           |    12|
++------+-------------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 998.195 ; gain = 352.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 998.195 ; gain = 447.598
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1010.211 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 77 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1010.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 44 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+57 Infos, 11 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 1010.211 ; gain = 712.375
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1010.211 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_works/Second_Term/OCC_CPU/OCC_CPU.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 23 00:29:37 2022...

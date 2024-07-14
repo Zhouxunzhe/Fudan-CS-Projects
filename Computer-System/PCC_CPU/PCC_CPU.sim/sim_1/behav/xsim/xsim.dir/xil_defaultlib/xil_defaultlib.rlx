@@ -1,0 +1,27 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sim_1/imports/new/testbench.sv,1650610941,systemVerilog,,,,testbench,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/adder.sv,1652197975,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/alu.sv,,adder,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/alu.sv,1652200078,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/aludec.sv,,alu,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/aludec.sv,1652236487,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/controller.sv,,aludec,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/controller.sv,1652190064,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/datapath.sv,,controller,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/datapath.sv,1652199558,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/dmem.sv,,datapath,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/dmem.sv,1652246234,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/eqcmp.sv,,dmem,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv,1646727906,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv,,flopr,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv,1652202337,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/maindec.sv,,imem,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/maindec.sv,1652199157,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mips.sv,,maindec,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mips.sv,1652197411,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv,,mips,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv,1646098821,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/mux3.sv,,mux2,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.sv,1652196664,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/signext.sv,,regfile,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/signext.sv,1646098821,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/sl2.sv,,signext,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/sl2.sv,1646098821,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/topext.sv,,sl2,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/flopenr.sv,1649740082,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/flopenrc.sv,,flopenr,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/topext.sv,1652246498,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sim_1/imports/new/testbench.sv,,topext,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/eqcmp.sv,1652196663,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/flopenr.sv,,eqcmp,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/flopenrc.sv,1652196654,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv,,flopenrc,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv,1652190957,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/hazard.sv,,floprc,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/hazard.sv,1652244661,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv,,hazard,,,,,,,,
+C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/mux3.sv,1652195931,systemVerilog,,C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.sv,,mux3,,,,,,,,

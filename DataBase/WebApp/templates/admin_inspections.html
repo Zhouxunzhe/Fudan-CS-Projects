@@ -1,0 +1,107 @@
+{% extends "admin_base.html" %}
+
+{% block title %}Inspections{% endblock %}
+
+{% block inspections_active %}active{% endblock %}
+
+{% block content %}
+
+
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Search</h1>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <form method="post" action="/inspections_" id="form">
+      <div class="modal-body">
+        <div class="mb-3">
+          <input type="text" class="form-control" id="sid" name="sid" placeholder="Student id">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="iid" name="iid" placeholder="Inspection id">
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="inspect_date" name="inspect_date" placeholder="Inspect date">
+        </div>
+        <div class="d-grid"><button type="submit" class="btn btn-primary">Search</button></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+  Search
+</button>
+
+<table class="table table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">STUDENT_ID</th>
+      <th scope="col">INSPECTION_ID</th>
+      <th scope="col">DATE</th>
+      <th scope="col">IS_INSPECT</th>
+      <th scope="col">RESULT</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for inspection in inspections %}
+    <tr style="vertical-align: middle;">
+      <th scope="row">{{ loop.index1 }}</th>
+      <td>{{ inspection.sid }}</td>
+      <td>{{ inspection.iid }}</td>
+      <td>{{ inspection.inspect_date }}</td>
+      <td>{{ inspection.is_inspected }}</td>
+      <td>{{ inspection.result }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if exists("pagination") %}
+<ul class="pagination">
+  {% if existsIn(pagination, "previous") %}
+  <li class="page-item">
+    <a class="page-link" href="/inspections_/{{ pagination.previous }}" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Previous">
+      <span aria-hidden="true">&laquo;</span>
+    </a>
+  </li>
+  {% endif %}
+  {% if existsIn(pagination, "left_ellipsis") %}
+  <li class="page-item"><a class="page-link" href="/inspections_/1">1</a></li>
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  {% endif %}
+  {% for page in pagination.pages_left %}
+  <li class="page-item"><a class="page-link" href="/inspections_/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  <li class="page-item active" aria-current="page"><a class="page-link" href="/inspections_/{{ pagination.current }}">{{ pagination.current }}</a></li>
+  {% for page in pagination.pages_right %}
+  <li class="page-item"><a class="page-link" href="/inspections_/{{ page }}">{{ page }}</a></li>
+  {% endfor %}
+  {% if existsIn(pagination, "right_ellipsis") %}
+  <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+  <li class="page-item"><a class="page-link" href="/inspections_/{{ pagination.total }}">{{ pagination.total }}</a></li>
+  {% endif %}
+  {% if existsIn(pagination, "next") %}
+  <li class="page-item">
+    <a class="page-link" href="/inspections_/{{ pagination.next }}" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% else %}
+  <li class="page-item disabled">
+    <a class="page-link" href="#" aria-label="Next">
+      <span aria-hidden="true">&raquo;</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+{% endblock %}

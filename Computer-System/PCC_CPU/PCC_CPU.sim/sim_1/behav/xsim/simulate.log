@@ -1,0 +1,4 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Simulation succeeded
+$stop called at time : 245 ns : File "C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sim_1/imports/new/testbench.sv" Line 39

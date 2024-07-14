@@ -1,0 +1,9 @@
+C:\Users\ZhouXunZhe\PycharmProjects\K-nn\venv\Scripts\python.exe C:/Users/ZhouXunZhe/PycharmProjects/K-nn/kNN.py
+60000 numbers imported
+10000 numbers imported
+
+the total number of errors is: 408
+
+the total error rate is: 0.040800
+
+进程已结束,退出代码0

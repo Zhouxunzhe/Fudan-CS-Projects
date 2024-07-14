@@ -1,0 +1,7 @@
+Running: xsim.dir/VGA_Stripes_Sim_behav/xsimk.exe -simmode gui -wdb VGA_Stripes_Sim_behav.wdb -simrunnum 0 -socket 1396
+Design successfully loaded
+Design Loading Memory Usage: 6272 KB (Peak: 6272 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 14952 KB (Peak: 14952 KB)
+Simulation CPU Usage: 7233 ms

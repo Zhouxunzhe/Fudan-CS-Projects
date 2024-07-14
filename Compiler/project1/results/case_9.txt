@@ -1,0 +1,122 @@
+ROW  COL  TYPE               TOKEN/ERROR MESSAGE
+1    1    reserved keyword   PROGRAM
+1    9    reserved keyword   IS
+2    5    reserved keyword   VAR
+2    9    identifier         I
+2    10   delimiter          ,
+2    12   identifier         J
+2    13   delimiter          ,
+2    15   identifier         ANSWER
+2    22   delimiter          :
+2    24   identifier         INTEGER
+2    32   operator           :=
+2    35   integer            0
+2    36   delimiter          ;
+3    5    reserved keyword   PROCEDURE
+3    15   identifier         FACTORIAL
+3    24   delimiter          (
+3    25   delimiter          )
+3    27   reserved keyword   IS
+4    2    reserved keyword   PROCEDURE
+5    11   identifier         FACT
+5    15   delimiter          (
+5    16   delimiter          )
+5    18   reserved keyword   IS
+5    21   reserved keyword   BEGIN
+6    6    identifier         MULT
+6    10   delimiter          (
+6    11   delimiter          )
+6    12   delimiter          ;
+7    6    reserved keyword   IF
+7    9    identifier         J
+7    11   operator           <>
+7    14   identifier         I
+7    16   reserved keyword   THEN
+7    21   identifier         J
+7    23   operator           :=
+7    26   identifier         J
+7    28   operator           +
+7    30   integer            1
+7    31   delimiter          ;
+7    33   identifier         FACT
+7    37   delimiter          (
+7    38   delimiter          )
+7    39   delimiter          ;
+7    41   reserved keyword   END
+7    44   delimiter          ;
+8    4    reserved keyword   END
+8    7    delimiter          ;
+9    4    identifier         MULT
+9    8    delimiter          (
+9    9    delimiter          )
+9    11   reserved keyword   IS
+9    14   reserved keyword   BEGIN
+10   13   identifier         ANSWER
+10   20   operator           :=
+10   23   identifier         ANSWER
+10   30   operator           *
+10   32   identifier         J
+10   33   delimiter          ;
+11   11   reserved keyword   END
+11   14   delimiter          ;
+12   5    reserved keyword   BEGIN
+13   2    identifier         ANSWER
+13   9    operator           :=
+13   12   integer            1
+13   13   delimiter          ;
+14   2    identifier         J
+14   4    operator           :=
+14   7    integer            1
+14   8    delimiter          ;
+15   2    identifier         FACT
+15   6    delimiter          (
+15   7    delimiter          )
+15   8    delimiter          ;
+16   5    reserved keyword   END
+16   8    delimiter          ;
+17   1    reserved keyword   BEGIN
+18   5    reserved keyword   WRITE
+18   11   delimiter          (
+18   12   string             "The first 5 factorials are (in descending order):"
+18   63   delimiter          )
+18   64   delimiter          ;
+19   5    identifier         I
+19   7    operator           :=
+19   10   integer            5
+19   11   delimiter          ;
+20   5    reserved keyword   LOOP
+21   2    reserved keyword   IF
+21   5    identifier         I
+21   7    operator           <=
+21   10   integer            0
+21   12   reserved keyword   THEN
+21   17   reserved keyword   EXIT
+21   21   delimiter          ;
+21   23   reserved keyword   END
+21   26   delimiter          ;
+22   9    identifier         FACTORIAL
+22   18   delimiter          (
+22   19   delimiter          )
+22   20   delimiter          ;
+23   9    reserved keyword   WRITE
+23   14   delimiter          (
+23   15   string             "FACTORIAL("
+23   27   delimiter          ,
+23   29   identifier         I
+23   30   delimiter          ,
+23   32   string             ") = "
+23   38   delimiter          ,
+23   40   identifier         ANSWER
+23   46   delimiter          )
+23   47   delimiter          ;
+24   2    identifier         I
+24   4    operator           :=
+24   7    identifier         I
+24   9    operator           -
+24   11   integer            1
+24   12   delimiter          ;
+25   5    reserved keyword   END
+25   8    delimiter          ;
+26   1    reserved keyword   END
+26   4    delimiter          ;
+number of tokens is: 120

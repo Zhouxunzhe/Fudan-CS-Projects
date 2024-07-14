@@ -1,0 +1,6 @@
+adam
+batch normalization
+集成
+数据增强
+dropout
+自适应学习率

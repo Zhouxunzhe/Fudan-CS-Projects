@@ -1,0 +1,9 @@
+
+
+cd Desktop\lab7\周训哲_20307110315_RUDP
+
+python Receiver.py -d
+
+python Sender.py -f test -d
+python Sender.py -f README -d
+python Sender.py -f test.png -d

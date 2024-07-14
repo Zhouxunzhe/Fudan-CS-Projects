@@ -1,0 +1,67 @@
+ <1,1> Grammar: program 
+.. <2,5> Grammar: body 
+.... <2,5> Grammar: declaration_sm 
+...... <2,5> Grammar: declaration 
+........ <2,9> Grammar: var_decl_sm 
+.......... <2,9> Grammar: var_decl 
+............ <2,9> Token: identifier: I
+............ <2,13> Grammar: type INTEGER
+.............. <2,13> Token: identifier: INTEGER
+............ <2,24> Grammar: expression 0
+.............. <2,24> Token: integer: 0
+...... <3,5> Grammar: declaration 
+........ <3,15> Grammar: procedure_decl_sm 
+.......... <3,15> Grammar: procedure_decl 
+............ <3,15> Token: identifier: ADDONE
+............ <3,21> Grammar: formal_params 
+............ <3,32> Grammar: body 
+.............. <4,2> Grammar: statement_sm 
+................ <4,2> Grammar: statement 
+.................. <4,2> Grammar: l_value I
+.................... <4,2> Token: identifier: I
+.................. <4,7> Grammar: expression IADD1
+.................... <4,7> Grammar: expression I
+...................... <4,7> Grammar: l_value I
+........................ <4,7> Token: identifier: I
+.................... <4,11> Grammar: expression 1
+...................... <4,11> Token: integer: 1
+...... <6,5> Grammar: declaration 
+........ <6,15> Grammar: procedure_decl_sm 
+.......... <6,15> Grammar: procedure_decl 
+............ <6,15> Token: identifier: PASSTHEBUCK
+............ <6,26> Grammar: formal_params 
+............ <6,37> Grammar: body 
+.............. <6,38> Grammar: statement_sm 
+................ <6,38> Grammar: statement 
+.................. <6,38> Token: identifier: ADDONE
+.................. <6,44> Grammar: actual_params 
+.... <8,5> Grammar: statement_sm 
+...... <8,5> Grammar: statement 
+........ <8,10> Grammar: write_params 
+.......... <8,11> Grammar: write_expr 
+............ <8,11> Token: string: "I = "
+.......... <8,17> Grammar: write_expr_comma_sm 
+............ <8,19> Grammar: write_expr 
+.............. <8,19> Grammar: expression I
+................ <8,19> Grammar: l_value I
+.................. <8,19> Token: identifier: I
+............ <8,22> Grammar: write_expr 
+.............. <8,22> Token: string: " (SHOULD BE 0)"
+...... <9,5> Grammar: statement 
+........ <9,5> Token: identifier: PASSTHEBUCK
+........ <9,16> Grammar: actual_params 
+...... <10,5> Grammar: statement 
+........ <10,10> Grammar: write_params 
+.......... <10,11> Grammar: write_expr 
+............ <10,11> Token: string: "I = "
+.......... <10,17> Grammar: write_expr_comma_sm 
+............ <10,19> Grammar: write_expr 
+.............. <10,19> Grammar: expression I
+................ <10,19> Grammar: l_value I
+.................. <10,19> Token: identifier: I
+............ <10,22> Grammar: write_expr 
+.............. <10,22> Token: string: " (SHOULD BE 1)"
+...... <11,5> Grammar: statement 
+........ <11,10> Grammar: write_params 
+.......... <11,11> Grammar: write_expr 
+............ <11,11> Token: string: "ALL DONE!"

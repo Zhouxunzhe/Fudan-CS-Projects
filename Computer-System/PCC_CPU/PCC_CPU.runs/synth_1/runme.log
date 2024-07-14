@@ -1,0 +1,617 @@
+
+*** Running vivado
+    with args -log topext.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source topext.tcl
+
+
+****** Vivado v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source topext.tcl -notrace
+Command: synth_design -top topext -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5272 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 786.375 ; gain = 234.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topext' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/topext.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mips' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mips.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'controller' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'maindec' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/maindec.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'maindec' (1#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/maindec.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'aludec' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/aludec.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'aludec' (2#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/aludec.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'floprc' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'floprc' (3#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+	Parameter WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr' (4#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized0' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+	Parameter WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized0' (4#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'controller' (5#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'datapath' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/datapath.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/hazard.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (6#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/hazard.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (7#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (8#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'flopenr' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/flopenr.sv:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopenr' (9#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/flopenr.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'adder' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/adder.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (10#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/adder.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'flopenrc' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/flopenrc.sv:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopenrc' (11#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/flopenrc.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'signext' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/signext.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'signext' (12#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/signext.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'zeroext' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/new/zeroext.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'zeroext' (13#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/new/zeroext.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'sl2' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/sl2.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'sl2' (14#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/sl2.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'eqcmp' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/eqcmp.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'eqcmp' (15#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/eqcmp.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'floprc__parameterized0' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'floprc__parameterized0' (15#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'floprc__parameterized1' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'floprc__parameterized1' (15#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/floprc.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'mux3' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/mux3.sv:1]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux3' (16#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/new/mux3.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/alu.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (17#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/alu.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'mux2__parameterized0' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv:1]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'mux2__parameterized0' (17#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mux2.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized1' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized1' (17#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'flopr__parameterized2' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'flopr__parameterized2' (17#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/flopr.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'datapath' (18#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/datapath.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'mips' (19#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/mips.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'imem' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv:1]
+INFO: [Synth 8-3876] $readmem data file 'C:/Vivado_works/Second_Term/PCC_CPU/memfile3.dat' is read successfully [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv:8]
+INFO: [Synth 8-6155] done synthesizing module 'imem' (20#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/imem.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'DataMemoryDecoder' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/DataMemoryDecoder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'dmem' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/dmem.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'dmem' (21#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/dmem.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'IO' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/IO.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'IO' (22#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/IO.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'x7seg' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/x7seg.sv:23]
+INFO: [Synth 8-226] default block is never used [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/x7seg.sv:50]
+INFO: [Synth 8-6157] synthesizing module 'Hex7Seg' [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/Hex7Seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Hex7Seg' (23#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/Hex7Seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'x7seg' (24#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/imports/new/x7seg.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'DataMemoryDecoder' (25#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/DataMemoryDecoder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'topext' (26#1) [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/sources_1/imports/sources_1/new/topext.sv:23]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[31]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[30]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[29]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[28]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[27]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[26]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[25]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[24]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[23]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[22]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[21]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[20]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[19]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[18]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[17]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[16]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[15]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[14]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[13]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[12]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[11]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[10]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[1]
+WARNING: [Synth 8-3331] design dmem has unconnected port a[0]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[31]
+WARNING: [Synth 8-3331] design sl2 has unconnected port a[30]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 860.203 ; gain = 308.812
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 860.203 ; gain = 308.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 860.203 ; gain = 308.812
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 860.203 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/constrs_1/imports/PCC_CPU/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/constrs_1/imports/PCC_CPU/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.srcs/constrs_1/imports/PCC_CPU/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/topext_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/topext_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 960.898 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 960.898 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "RAM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 10    
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 5     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 19    
+	   4 Input     32 Bit        Muxes := 1     
+	  14 Input     32 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	  10 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module maindec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+Module aludec 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      3 Bit        Muxes := 1     
+Module floprc 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module flopr 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module flopr__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+Module hazard 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 4     
+Module mux2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module flopenr 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module flopenrc 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module floprc__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module floprc__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module mux3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+Module mux2__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module flopr__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module flopr__parameterized2 
+Detailed RTL Component Info : 
++---Registers : 
+	                5 Bit    Registers := 1     
+Module imem 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input     32 Bit        Muxes := 1     
+Module IO 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+Module x7seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[8]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[9]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[10]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[14]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[15]' (FDCE) to 'mips/dp/r2D/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[11]' (FDCE) to 'mips/dp/r2D/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[12]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[13]' (FDCE) to 'mips/dp/r2D/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[4]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[6]' (FDCE) to 'mips/dp/r2D/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[31]' (FDCE) to 'mips/dp/r2D/q_reg[26]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[16]' (FDC) to 'mips/dp/r3E/q_reg[17]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[17]' (FDC) to 'mips/dp/r3E/q_reg[18]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[18]' (FDC) to 'mips/dp/r3E/q_reg[19]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[19]' (FDC) to 'mips/dp/r3E/q_reg[20]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[20]' (FDC) to 'mips/dp/r3E/q_reg[21]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[21]' (FDC) to 'mips/dp/r3E/q_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[22]' (FDC) to 'mips/dp/r3E/q_reg[23]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[23]' (FDC) to 'mips/dp/r3E/q_reg[24]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[24]' (FDC) to 'mips/dp/r3E/q_reg[25]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[25]' (FDC) to 'mips/dp/r3E/q_reg[26]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[26]' (FDC) to 'mips/dp/r3E/q_reg[27]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[27]' (FDC) to 'mips/dp/r3E/q_reg[28]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[28]' (FDC) to 'mips/dp/r3E/q_reg[29]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[29]' (FDC) to 'mips/dp/r3E/q_reg[30]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[30]' (FDC) to 'mips/dp/r3E/q_reg[31]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r2D/q_reg[24]' (FDCE) to 'mips/dp/r2D/q_reg[19]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mips/dp/r2D/q_reg[19] )
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[8]' (FDC) to 'mips/dp/r3E/q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[9]' (FDC) to 'mips/dp/r3E/q_reg[10]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[10]' (FDC) to 'mips/dp/r3E/q_reg[12]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[11]' (FDC) to 'mips/dp/r3E/q_reg[13]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[12]' (FDC) to 'mips/dp/r3E/q_reg[14]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[13]' (FDC) to 'mips/dp/r3E/q_reg[15]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[14]' (FDC) to 'mips/dp/r3E/q_reg[4]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[15]' (FDC) to 'mips/dp/r3E/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r6E/q_reg[3]' (FDC) to 'mips/dp/r6E/q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r6E/q_reg[4]' (FDC) to 'mips/dp/r6E/q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r6E/q_reg[0]' (FDC) to 'mips/dp/r6E/q_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[4]' (FDC) to 'mips/dp/r3E/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r6E/q_reg[1]' (FDC) to 'mips/dp/r3E/q_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r6E/q_reg[2]' (FDC) to 'mips/dp/r3E/q_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mips/dp/r3E/q_reg[6]' (FDC) to 'mips/dp/r4E/q_reg[1]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------------+---------------+----------------+
+|Module Name | RTL Object       | Depth x Width | Implemented As | 
++------------+------------------+---------------+----------------+
+|Hex7Seg     | a2g              | 32x7          | LUT            | 
+|topext      | dmd/x7seg/s7/a2g | 32x7          | LUT            | 
++------------+------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++------------+-------------------+-----------+----------------------+------------------------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives                   | 
++------------+-------------------+-----------+----------------------+------------------------------+
+|topext      | dmd/dmem/RAM_reg  | Implied   | 64 x 32              | RAM16X1S x 64	RAM32X1S x 32	 | 
+|topext      | mips/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 12	                 | 
++------------+-------------------+-----------+----------------------+------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 960.898 ; gain = 409.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1356.469 ; gain = 805.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping	Report
++------------+-------------------+-----------+----------------------+------------------------------+
+|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives                   | 
++------------+-------------------+-----------+----------------------+------------------------------+
+|topext      | dmd/dmem/RAM_reg  | Implied   | 64 x 32              | RAM16X1S x 64	RAM32X1S x 32	 | 
+|topext      | mips/dp/rf/rf_reg | Implied   | 32 x 32              | RAM32M x 12	                 | 
++------------+-------------------+-----------+----------------------+------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1356.469 ; gain = 805.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    20|
+|3     |LUT1     |     5|
+|4     |LUT2     |    53|
+|5     |LUT3     |    52|
+|6     |LUT4     |    18|
+|7     |LUT5     |   111|
+|8     |LUT6     |   331|
+|9     |MUXF7    |     4|
+|10    |RAM16X1S |     6|
+|11    |RAM32M   |    12|
+|12    |RAM32X1S |    32|
+|13    |FDCE     |   278|
+|14    |FDRE     |    42|
+|15    |IBUF     |    20|
+|16    |OBUF     |    15|
++------+---------+------+
+
+Report Instance Areas: 
++------+-------------+-------------------------+------+
+|      |Instance     |Module                   |Cells |
++------+-------------+-------------------------+------+
+|1     |top          |                         |  1000|
+|2     |  dmd        |DataMemoryDecoder        |   175|
+|3     |    dmem     |dmem                     |    44|
+|4     |    io       |IO                       |    47|
+|5     |    rdmux    |mux2                     |    34|
+|6     |    x7seg    |x7seg                    |    50|
+|7     |  mips       |mips                     |   788|
+|8     |    c        |controller               |    17|
+|9     |      regE   |floprc                   |    10|
+|10    |      regM   |flopr                    |     5|
+|11    |      regW   |flopr__parameterized0    |     2|
+|12    |    dp       |datapath                 |   771|
+|13    |      alu    |alu                      |     9|
+|14    |      comp   |eqcmp                    |     3|
+|15    |      pcadd1 |adder                    |     2|
+|16    |      pcadd2 |adder_0                  |     2|
+|17    |      pcreg  |flopenr                  |    24|
+|18    |      r1D    |flopenr_1                |     9|
+|19    |      r1E    |floprc__parameterized0   |    32|
+|20    |      r1M    |flopr__parameterized1    |    32|
+|21    |      r1W    |flopr__parameterized1_2  |    32|
+|22    |      r2D    |flopenrc                 |   201|
+|23    |      r2E    |floprc__parameterized0_3 |    32|
+|24    |      r2M    |flopr__parameterized1_4  |    34|
+|25    |      r2W    |flopr__parameterized1_5  |    64|
+|26    |      r3E    |floprc__parameterized0_6 |    10|
+|27    |      r3M    |flopr__parameterized2    |   174|
+|28    |      r3W    |flopr__parameterized2_7  |    79|
+|29    |      r4E    |floprc__parameterized1   |     7|
+|30    |      r5E    |floprc__parameterized1_8 |    13|
+|31    |      rf     |regfile                  |    12|
++------+-------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:00:46 . Memory (MB): peak = 1358.250 ; gain = 706.164
+Synthesis Optimization Complete : Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1358.250 ; gain = 806.859
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1362.480 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 74 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 12 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1362.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 50 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 6 instances
+  RAM32M => RAM32M (inverted pins: WCLK) (RAMD32(x6), RAMS32(x2)): 12 instances
+  RAM32X1S => RAM32X1S (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+122 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:54 . Memory (MB): peak = 1362.480 ; gain = 1064.621
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1362.480 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Vivado_works/Second_Term/PCC_CPU/PCC_CPU.runs/synth_1/topext.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file topext_utilization_synth.rpt -pb topext_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 19 11:53:40 2022...

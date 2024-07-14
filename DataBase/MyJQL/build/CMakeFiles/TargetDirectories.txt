@@ -1,0 +1,9 @@
+C:/Users/ZhouXunZhe/Desktop/myjql/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/src/CMakeFiles/myjql.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/test/CMakeFiles/test_hash_map.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/test/CMakeFiles/test_b_tree.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/test/CMakeFiles/test_str.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/driver/CMakeFiles/myjqlclient.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/main/CMakeFiles/myjqlserver.dir
+C:/Users/ZhouXunZhe/Desktop/myjql/build/main/CMakeFiles/myjqlshell.dir

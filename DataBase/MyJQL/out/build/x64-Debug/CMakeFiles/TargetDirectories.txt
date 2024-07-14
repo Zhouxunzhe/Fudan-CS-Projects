@@ -1,0 +1,17 @@
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/src/CMakeFiles/myjql.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/src/CMakeFiles/edit_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/test/CMakeFiles/test_hash_map.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/test/CMakeFiles/test_b_tree.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/test/CMakeFiles/test_str.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/test/CMakeFiles/edit_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/test/CMakeFiles/rebuild_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/driver/CMakeFiles/rebuild_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/driver/CMakeFiles/myjqlclient.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/driver/CMakeFiles/edit_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/main/CMakeFiles/myjqlserver.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/main/CMakeFiles/edit_cache.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/main/CMakeFiles/myjqlshell.dir
+C:/Users/zhouxz/Desktop/myjql/out/build/x64-Debug/main/CMakeFiles/rebuild_cache.dir

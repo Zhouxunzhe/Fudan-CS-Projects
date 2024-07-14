@@ -1,0 +1,20 @@
+1. Which registers contain arguments to functions? For example, which
+register holds 13 in main's call to printf?
+RISC-V的函数调用过程参数优先使用寄存器传递，即a0~a7共8个寄存器。
+返回值可以放在a0和a1寄存器。
+printf的参数13保存在a2寄存器。
+2. Where is the call to function f in the assembly code for main? Where is
+the call to g? (Hint: the compiler may inline functions.)
+从代码可以看出，这两个都被内联优化处理了。main中的f调用直接使用了结果12，而f中的函数g调用直接内联在f中了。
+3. At what address is the function printf located?
+在0x630
+4. What value is in the register ra just after the jalr to printf in main?
+值应该为0x38，即函数的返回地址
+5.Run the following code.
+unsigned int i = 0x00646c72;
+printf("H%x Wo%s", 57616, &i);
+What is the output? Here's an ASCII table that maps bytes to characters.
+The output depends on that fact that the RISC-V is little-endian. If the
+RISC-V were instead big-endian what would you set i to in order to yield
+the same output? Would you need to change 57616 to a different value?
+结果为：He110 World;不需要修改为0x726c6400; 57616不需要进行改变，编译器会进行转换。

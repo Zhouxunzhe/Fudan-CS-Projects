@@ -1,0 +1,37 @@
+Start testing: May 18 17:22 ?D1迆㊣那℅?那㊣??
+----------------------------------------------------------
+1/2 Testing: test_hash_map
+1/2 Test: test_hash_map
+Command: "C:/Users/zhouxz/Desktop/myjql/build/test/Debug/test_hash_map.exe"
+Directory: C:/Users/zhouxz/Desktop/myjql/build/test
+"test_hash_map" start time: May 18 17:22 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+max_val = 128
+max_val = 128
+max_val = 128
+max_val = 128
+<end of output>
+Test time = 393.16 sec
+----------------------------------------------------------
+Test Passed.
+"test_hash_map" end time: May 18 17:28 ?D1迆㊣那℅?那㊣??
+"test_hash_map" time elapsed: 00:06:33
+----------------------------------------------------------
+
+2/2 Testing: test_str
+2/2 Test: test_str
+Command: "C:/Users/zhouxz/Desktop/myjql/build/test/Debug/test_str.exe"
+Directory: C:/Users/zhouxz/Desktop/myjql/build/test
+"test_str" start time: May 18 17:28 ?D1迆㊣那℅?那㊣??
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =  73.72 sec
+----------------------------------------------------------
+Test Passed.
+"test_str" end time: May 18 17:30 ?D1迆㊣那℅?那㊣??
+"test_str" time elapsed: 00:01:13
+----------------------------------------------------------
+
+End testing: May 18 17:30 ?D1迆㊣那℅?那㊣??
