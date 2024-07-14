@@ -1,9 +1,10 @@
 # Fudan-CS-Projects
+
 This is Xunzhe Zhou's official repository to store the course projects in Computer Science, Fudan University.
 
-![](https://img.shields.io/github/forks/Zhouxunzhe/Fudan-CS-Projects?style=social)
-![](https://img.shields.io/github/watchers/Zhouxunzhe/Fudan-CS-Projects?style=social )
-![](https://img.shields.io/github/stars/Zhouxunzhe/Fudan-CS-Projects?branch=master&color=green&style=social)
+![](https://shields.io/github/stars/Zhouxunzhe/Fudan-CS-Projects?style=social)
+![](https://shields.io/github/watchers/Zhouxunzhe/Fudan-CS-Projects?style=social )
+![](https://shields.io/github/forks/Zhouxunzhe/Fudan-CS-Projects?branch=master&color=green&style=social)
 
 ### Term of use
 
@@ -15,4 +16,4 @@ Don't forget to star⭐ this repository to let other students know! Remember to 
 
 ### License
 
-This repository is MIT licensed. See the [LICENSE](https://github.com/Zhouxunzhe/Fudan-CS-Projects/LICENSE) for details.
+This repository is MIT licensed. See the [LICENSE](https://github.com/Zhouxunzhe/Fudan-CS-Projects/blob/main/LICENSE) for details.
